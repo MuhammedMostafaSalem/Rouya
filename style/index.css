@@ -1,0 +1,120 @@
+/* link google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Londrina+Outline&family=Londrina+Shadow&family=Roboto:wght@300;400;500;700&family=Sriracha&family=Tajawal:wght@300;400;700&display=swap');
+
+:root {
+    --grayColor: #aaa8a8;
+    --mb: 100px;
+    --width-img: 500px;
+    --br: 10px;
+    --p: 70px 0;
+}
+
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+/* start header */
+header {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+/* start navbar section */
+.navbar {
+    position: static;
+    top: -90px;
+    padding: 0;
+    z-index: 999;
+    font-weight: 400;
+    transition: 1s;
+}
+.navbar.sticky {
+    background-color: #fff!important;
+    transition: 1s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    z-index: 15;
+}
+.navbar .navbar-toggler {
+    border: none;
+}
+.navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar .navbar-toggler-icon {
+    background-image: none;
+}
+.navbar .navbar-toggler-icon i {
+    color: #fff;
+    font-size: 23px;
+}
+.sticky .navbar-brand,
+.sticky .nav-link,
+.sticky .navbar-toggler-icon i {
+    color: #000 !important;
+}
+/* end navbar section */
+
+/* start hero section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .hero-content h2 {
+    color: #fff;
+    margin-top: 60px;
+    padding-left: 150px;
+    font-size: 50px;
+}
+
+/* media querry */
+@media (max-width:767px) {
+    .hero-section .hero-content h2 {
+        padding-left: 50px;
+    }
+}
+@media (max-width:575px) {
+    .hero-section .hero-content h2 {
+        padding-left: 0;
+        font-size: 40px;
+    }
+}
+/* end hero section */
+
+/* end header */
+
+
+
+/* start footer */
+footer {
+    border-top: 1px solid #ebe9e9;
+    padding-top: 10px;
+}
+footer ul {
+    list-style: none;
+}
+footer .ul-right {
+    position: relative;
+}
+footer .ul-right li:not(:last-child):after {
+    content: '|';
+    position: absolute;
+    margin-right: 150px;
+    bottom: 20%;
+}
+.socail {
+    justify-content: left;
+}
+footer ul li a,
+.socail a {
+    color: #000 !important;
+}
+/* end footer */

@@ -1,0 +1,141 @@
+/* start header */
+header {
+    height: 90vh;
+    background-image: url(../imgs/home/silhouette-business-people-discussion-meeting-cityscape-team-concept.jpg);
+}
+.hero-section {
+    min-height: 60vh;
+}
+/* end header */
+
+
+
+
+
+/* start sponsor section */
+.sponsor {
+    padding: 25px 0;
+    border-bottom: 1px solid #ebe9e9;
+    margin-bottom: var(--mb);
+}
+.sponsor .row img {
+    width: 200px;
+}
+
+/* media querry */
+@media (max-width:991px) {
+    .sponsor .row img {
+        width: 250px !important;
+    }
+}
+/* end sponsor section */
+
+
+
+
+/* start whoAreWe section */
+.whoAreWe {
+    margin-bottom: var(--mb);
+}
+.whoAreWe .row .whoAreWe-text {
+    padding: var(--p);
+}
+.whoAreWe .row .whoAreWe-text p {
+    color: var(--grayColor);
+}
+.whoAreWe .row .whoAreWe-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+/* media querry */
+@media (max-width:1199px) {
+    .whoAreWe .row .whoAreWe-text {
+        padding: 45px 0;
+    }
+    .whoAreWe .row .whoAreWe-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .whoAreWe .row .whoAreWe-text {
+        padding: 0;
+    }
+    .whoAreWe .row .whoAreWe-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .whoAreWe .row .whoAreWe-img img {
+        width: 100%;
+    }
+}
+/* end whoAreWe section */
+
+
+
+
+/* start IntroducingManager section */
+.IntroducingManager {
+    margin-bottom: var(--mb);
+}
+.IntroducingManager .row .IntroducingManager-text {
+    padding: var(--p);
+}
+.IntroducingManager .row .IntroducingManager-text p {
+    color: var(--grayColor);
+}
+.IntroducingManager .row .IntroducingManager-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+/* media querry */
+@media (max-width:1199px) {
+    .IntroducingManager .row .IntroducingManager-text {
+        padding: 45px 0;
+    }
+    .IntroducingManager .row .IntroducingManager-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .IntroducingManager .row .IntroducingManager-text {
+        padding: 0;
+        margin-right: 20px;
+    }
+    .IntroducingManager .row .IntroducingManager-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .IntroducingManager .row .IntroducingManager-img img {
+        width: 100%;
+    }
+    .IntroducingManager .row .IntroducingManager-text {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+/* end IntroducingManager section */
+
+
+
+
+/* start vision section  */
+.vision {
+    margin-bottom: var(--mb);
+}
+.vision .row .vision-img img {
+    height: 500px;
+    width: 100%;
+    border-radius: var(--br);
+}
+.vision .row .vision-text {
+    margin-top: 10px;
+}
+.vision .row .vision-text ul {
+    color: var(--grayColor);
+}
+.vision .row .vision-text ol {
+    margin-right: 20px;
+}
+/* end vision section  */

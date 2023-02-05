@@ -1,0 +1,82 @@
+/* start header */
+header {
+    height: 80vh;
+    background-image: url(../imgs/contact/nik-macmillan-yxemfqipr_e-unsplash-02_1.jpg);
+    margin-bottom: var(--mb);
+}
+.hero-section {
+    min-height: 45vh;
+}
+.hero-section .hero-content h4 {
+    color: #fff;
+}
+/* end header */
+
+
+
+
+/* start form-detaols-section */
+#form-details {
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 75px;
+    margin-bottom: 100px;
+}
+#form-details form {
+    width: 100%;
+}
+#form-details form span {
+    color: #6c757d;
+}
+#form-details form input , #form-details form textarea {
+    width: 100%;
+    padding: 8px 15px;
+    outline: none;
+    margin-top: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#form-details form button {
+    width: 130px;
+    height: 45px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+    /* border-radius: 10px; */
+    border: none;
+    margin-top: 20px;
+}
+/* end form-detaols-section */
+
+
+
+
+
+/* start contact-details-section */
+.contact-details {
+    margin-bottom: 100px;
+}
+.contact-details .details h5 {
+    color: #6c757d;
+}
+.contact-details .details h2 {
+    font-size: 27px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.contact-details .details div {
+    margin-top: 20px;
+}
+.contact-details .details div li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.contact-details .details div li p {
+    margin-right: 20px;
+    margin-top: 15px !important;
+    color: #6c757d;
+}
+/* end contact-details-section */

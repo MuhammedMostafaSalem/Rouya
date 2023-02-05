@@ -1,0 +1,453 @@
+/* start header */
+header {
+    height: 80vh;
+    background-image: url(../imgs/services/aerial-view-business-team.jpg);
+    margin-bottom: var(--mb);
+}
+.hero-section {
+    min-height: 45vh;
+}
+.hero-section .hero-content h4 {
+    color: #fff;
+    padding-left: 400px;
+}
+
+/* media querry */
+@media (max-width:991px) {
+    .hero-section .hero-content h4 {
+        padding-left: 200px;
+    }
+}
+@media (max-width:575px) {
+    .hero-section .hero-content h4 {
+        padding-left: 0;
+    }
+}
+/* end header */
+
+
+
+
+/* start Research-development section */
+.Research-development {
+    margin-bottom: var(--mb);
+}
+.Research-development .row .Research-development-text {
+    padding: 40px 0;
+}
+.Research-development .row .Research-development-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.Research-development .row .Research-development-text p {
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    color: var(--grayColor);
+}
+.Research-development .row .Research-development-text ul {
+    margin-right: 15px;
+}
+.Research-development .row .Research-development-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .Research-development .row .Research-development-text {
+        padding: 0;
+    }
+    .Research-development .row .Research-development-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .Research-development .row .Research-development-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .Research-development .row .Research-development-img img {
+        width: 100%;
+    }
+}
+/* end Research-development section */
+
+
+
+/* start networks section */
+.networks {
+    margin-bottom: var(--mb);
+}
+.networks .row .networks-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+.networks .row .networks-text {
+    padding: 100px 0;
+}
+.networks .row .networks-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.networks .row .networks-text ul {
+    margin-right: 15px;
+}
+.networks .row .networks-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .networks .row .networks-text {
+        padding: 60px 0;
+    }
+    .networks .row .networks-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .networks .row .networks-text {
+        padding: 0;
+    }
+    .networks .row .networks-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .networks .row .networks-img img {
+        width: 100%;
+    }
+}
+/* end networks section */
+
+
+
+/* start vpn section */
+.vpn {
+    margin-bottom: var(--mb);
+}
+.vpn .row .vpn-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+.vpn .row .vpn-text {
+    padding: 100px 0;
+}
+.vpn .row .vpn-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.vpn .row .vpn-text ul {
+    margin-right: 15px;
+}
+.vpn .row .vpn-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .vpn .row .vpn-text {
+        padding: 60px 0;
+    }
+    .vpn .row .vpn-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .vpn .row .vpn-text {
+        padding: 0;
+    }
+    .vpn .row .vpn-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .vpn .row .vpn-img img {
+        width: 100%;
+    }
+}
+/* end vpn section */
+
+
+
+
+/* start Backup section */
+.Backup {
+    margin-bottom: var(--mb);
+}
+.Backup .row .Backup-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+.Backup .row .Backup-text {
+    padding: 100px 0;
+}
+.Backup .row .Backup-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.Backup .row .Backup-text ul {
+    margin-right: 15px;
+}
+.Backup .row .Backup-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .Backup .row .Backup-text {
+        padding: 60px 0;
+    }
+    .Backup .row .Backup-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .Backup .row .Backup-text {
+        padding: 0;
+    }
+    .Backup .row .Backup-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .Backup .row .Backup-img img {
+        width: 100%;
+    }
+}
+/* end Backup section */
+
+
+
+/* start cloudComputing section */
+.cloudComputing {
+    margin-bottom: var(--mb);
+}
+.cloudComputing .row .cloudComputing-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+.cloudComputing .row .cloudComputing-text {
+    padding: 100px 0;
+}
+.cloudComputing .row .cloudComputing-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.cloudComputing .row .cloudComputing-text ul {
+    margin-right: 15px;
+}
+.cloudComputing .row .cloudComputing-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .cloudComputing .row .cloudComputing-text {
+        padding: 60px 0;
+    }
+    .cloudComputing .row .cloudComputing-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .cloudComputing .row .cloudComputing-text {
+        padding: 0;
+    }
+    .cloudComputing .row .cloudComputing-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .cloudComputing .row .cloudComputing-img img {
+        width: 100%;
+    }
+}
+/* end cloudComputing section */
+
+
+
+/* start securityCameras section */
+.securityCameras {
+    margin-bottom: var(--mb);
+}
+.securityCameras .row .securityCameras-img img {
+    width: var(--width-img);
+    border-radius: var(--br);
+}
+.securityCameras .row .securityCameras-text {
+    padding: 100px 0;
+}
+.securityCameras .row .securityCameras-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.securityCameras .row .securityCameras-text ul {
+    margin-right: 15px;
+}
+.securityCameras .row .securityCameras-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .securityCameras .row .securityCameras-text {
+        padding: 60px 0;
+    }
+    .securityCameras .row .securityCameras-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .securityCameras .row .securityCameras-text {
+        padding: 0;
+    }
+    .securityCameras .row .securityCameras-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .securityCameras .row .securityCameras-img img {
+        width: 100%;
+    }
+}
+/* end securityCameras section */
+
+
+
+
+/* start smartHomes section */
+.smartHomes {
+    margin-bottom: var(--mb);
+}
+.smartHomes .row .smartHomes-img img {
+    width: var(--width-img);
+    height: 400px;
+    border-radius: var(--br);
+}
+.smartHomes .row .smartHomes-text {
+    padding: 100px 0;
+}
+.smartHomes .row .smartHomes-text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.smartHomes .row .smartHomes-text ul {
+    margin-right: 15px;
+}
+.smartHomes .row .smartHomes-text ul li {
+    color: var(--grayColor);
+}
+
+
+@media (max-width:1199px) {
+    .smartHomes .row .smartHomes-text {
+        padding: 60px 0;
+    }
+    .smartHomes .row .smartHomes-img img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .smartHomes .row .smartHomes-text {
+        padding: 0;
+    }
+    .smartHomes .row .smartHomes-img img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    .smartHomes .row .smartHomes-img img {
+        width: 100%;
+    }
+}
+/* end smartHomes section */
+
+
+
+/* start CommunicationCenters section */
+.CommunicationCenters {
+    margin-bottom: var(--mb);
+}
+div .row img {
+    width: var(--width-img);
+    height: 400px;
+    border-radius: var(--br);
+}
+div .row .text {
+    padding: 100px 0;
+}
+div .row .text h5 i {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+div .row .text ul {
+    margin-right: 15px;
+}
+div .row .text ul li {
+    color: var(--grayColor);
+}
+
+/* media querry */
+@media (max-width:1199px) {
+    div .row .text {
+        padding: 60px 0;
+    }
+    div .row img {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    div .row .text {
+        padding: 0;
+    }
+    div .row img {
+        width: 350px;
+    }
+}
+@media (max-width:767px) {
+    div .row img {
+        width: 100%;
+    }
+}
+/* end CommunicationCenters section */
+
+
+/* start Security section */
+.Security {
+    margin-bottom: 20px;
+}
+/* end Security section */
