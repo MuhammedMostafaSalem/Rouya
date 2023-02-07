@@ -3,10 +3,18 @@
 
 :root {
     --grayColor: #aaa8a8;
+    --cyanGreenColor: #51a29d;
+    --navyBlue: #393e57;
+    --whiteColor: #ffffff;
+    --blackColor: #000;
     --mb: 100px;
     --width-img: 500px;
     --br: 10px;
     --p: 70px 0;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
 }
 
 *{
@@ -38,6 +46,13 @@ header {
     box-shadow: 0 0 15px rgb(0 0 0 / 15%);
     z-index: 15;
 }
+.navbar .navbar-brand .nav-img-1 {
+    width: 40px;
+}
+.navbar .navbar-brand .nav-img-2 {
+    display: none;
+    width: 40px;
+}
 .navbar .navbar-toggler {
     border: none;
 }
@@ -52,10 +67,19 @@ header {
     color: #fff;
     font-size: 23px;
 }
-.sticky .navbar-brand,
+.navbar .nav-link {
+    color: var(--whiteColor) !important;
+}
+.sticky .navbar-brand .nav-img-1 {
+    display: none;
+}
+.sticky .navbar-brand .nav-img-2 {
+    display: block;
+}
 .sticky .nav-link,
 .sticky .navbar-toggler-icon i {
-    color: #000 !important;
+    color: var(--navyBlue) !important;
+    font-size: 18px;
 }
 /* end navbar section */
 
@@ -63,28 +87,32 @@ header {
 .hero-section {
     position: relative;
     width: 100%;
-    min-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 150px;
+    text-align: right;
 }
 .hero-section .hero-content h2 {
     color: #fff;
-    margin-top: 60px;
     padding-left: 150px;
     font-size: 50px;
 }
 
 /* media querry */
+@media (max-width:991px) {
+    .hero-section {
+        margin-top: 30px;
+    }
+}
 @media (max-width:767px) {
     .hero-section .hero-content h2 {
-        padding-left: 50px;
+        padding-left: 0;
     }
 }
 @media (max-width:575px) {
+    .hero-section {
+        margin-top: 100px;
+    }
     .hero-section .hero-content h2 {
-        padding-left: 0;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 /* end hero section */
@@ -97,6 +125,7 @@ header {
 footer {
     border-top: 1px solid #ebe9e9;
     padding-top: 10px;
+    direction: rtl;
 }
 footer ul {
     list-style: none;
@@ -115,6 +144,6 @@ footer .ul-right li:not(:last-child):after {
 }
 footer ul li a,
 .socail a {
-    color: #000 !important;
+    color: var(--navyBlue) !important;
 }
 /* end footer */
