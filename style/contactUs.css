@@ -1,14 +1,22 @@
 /* start header */
 header {
     height: 80vh;
-    background-image: url(../imgs/contact/nik-macmillan-yxemfqipr_e-unsplash-02_1.jpg);
-    margin-bottom: var(--mb);
+    background-image: url(../imgs/contact/16.jpg);
 }
 .hero-section {
     min-height: 45vh;
+    text-align: left;
 }
 .hero-section .hero-content h4 {
-    color: #fff;
+    color: var(--whiteColor);
+    margin-left: 120px;
+}
+
+/* media querry */
+@media (max-width:767px) {
+    .hero-section .hero-content h4 {
+        margin-left: 0;
+    }
 }
 /* end header */
 
@@ -21,7 +29,6 @@ header {
     border-radius: 20px;
     margin: 30px;
     padding: 75px;
-    margin-bottom: 100px;
 }
 #form-details form {
     width: 100%;
@@ -44,9 +51,18 @@ header {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 16px;
-    /* border-radius: 10px; */
     border: none;
     margin-top: 20px;
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+}
+
+/* media querry */
+@media (max-width:575px) {
+    #form-details {
+        margin: 10px;
+        padding: 10px;
+    }
 }
 /* end form-detaols-section */
 
@@ -55,16 +71,8 @@ header {
 
 
 /* start contact-details-section */
-.contact-details {
-    margin-bottom: 100px;
-}
-.contact-details .details h5 {
-    color: #6c757d;
-}
-.contact-details .details h2 {
-    font-size: 27px;
-    line-height: 35px;
-    margin-top: 20px;
+.contact-details h1 {
+    color: var(--cyanGreenColor);
 }
 .contact-details .details div {
     margin-top: 20px;
@@ -74,9 +82,14 @@ header {
     align-items: center;
     list-style: none;
 }
+.contact-details .details div li i {
+    font-size: 25px;
+    color: var(--cyanGreenColor);
+}
 .contact-details .details div li p {
-    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 15px !important;
     color: #6c757d;
+    font-size: 20px;
 }
 /* end contact-details-section */
