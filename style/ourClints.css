@@ -1,0 +1,11 @@
+.navbar {
+    background-color: var(--navyBlue);
+}
+
+
+
+/* start clints section */
+.clints-section .box img {
+    width: 100%;
+}
+/* end clints section */
