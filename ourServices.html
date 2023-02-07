@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,29 +17,32 @@
 </head>
 <body>
     <!-- start header -->
-    <header>
+    <header class="margin-bottom">
         <!-- start navbar section -->
         <nav class="navbar navbar-expand-lg navbar-dark fw-bold">
             <div class="container">
-                <a class="navbar-brand fs-3" href="home.html">رؤية</a>
+                <a class="navbar-brand fs-3" href="home.html">
+                    <img src="imgs/logo white-transparent.png" class="nav-img-1" alt="">
+                    <img src="imgs/letterhead (1).png" class="nav-img-2" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <i class="fa-solid fa-bars"></i>
                     </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="home.html">الرئيسية</a>
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="ourServices.html">عن خدماتنا</a>
+                            <a class="nav-link" aria-current="page" href="ourServices.html">Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">عملائنا</a>
+                            <a class="nav-link" aria-current="page" href="#">Our Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contactUs.html">تواصل معنا</a>
+                            <a class="nav-link" aria-current="page" href="contactUs.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -73,28 +76,49 @@
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="Research-development-img">
-                            <img src="imgs/services/19962864_6203986.jpg" alt="">
-                        </div>
+                    <div class="Research-development-text">
+                        <h1>
+                            خدمات البحث والتطوير
+                            <div>Research and development services</div>
+                        </h1>
+                        <p>The company works to provide the latest technical solutions through research and development in the following fields :</p>
+                        <p class="Research-arb">
+                            توفر الشركة أحدث الحلول التقنية وذلك من خلال الأبحاث والتطوير في المجالات التالية :
+                        </p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="Research-development-text">
-                            <h5 class="fw-bold">
+                    <div class="Research-development-img">
+                        <div class="overlay"></div>
+                        <div class="Research-img-text">
+                            <div class="Research">
                                 <i class="fa-solid fa-1"></i>
-                                <span>خدمات البحث والتطوير</span>
-                            </h5>
-                            <p>
-                                توفر الشركة أحدث الحلول التقنية وذلك من خلال الأبحاث والتطوير في المجالات التالية :
-                            </p>
-                            <ul>
-                                <li>الذكاء الاصطناعي Ai</li>
-                                <li>الروبوتات</li>
-                                <li>انترنت الاشياء</li>
-                                <li>الرؤية بالحاسب</li>
-                                <li>الواقع المعزز</li>
-                                <li>الطباعة ثلاثية الابعاد</li>
-                            </ul>
+                                <span>AI (artificial intelligence)</span>
+                                <span class="research-arb">الذكاء الاصطناعي</span>
+                            </div>
+                            <div class="Research">
+                                <i class="fa-solid fa-2"></i>
+                                <span>computer vision</span>
+                                <span class="research-arb research-arb2">الرؤية بالحاسب</span>
+                            </div>
+                            <div class="Research">
+                                <i class="fa-solid fa-3"></i>
+                                <span>robots</span>
+                                <span class="research-arb research-arb3">الروبوتات</span>
+                            </div>
+                            <div class="Research">
+                                <i class="fa-solid fa-4"></i>
+                                <span>AR (augmented reality)</span>
+                                <span class="research-arb research-arb4">الواقع المعزز</span>
+                            </div>
+                            <div class="Research">
+                                <i class="fa-solid fa-5"></i>
+                                <span>Internet of Things</span>
+                                <span class="research-arb research-arb5">انترنت الأشياء</span>
+                            </div>
+                            <div class="Research">
+                                <i class="fa-solid fa-6"></i>
+                                <span>3D printing</span>
+                                <span class="research-arb research-arb6">الطباعة ثلاثية الابعاد</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,27 +132,36 @@
 
 
     <!-- start networks section -->
-    <div class="networks">
+    <div class="networks margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="networks-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-2"></i>
-                                <span>خدمات الشبكات وتشمل تمديد وتركيب الشبكات</span>
-                            </h5>
-                            <ul>
-                                <li>نقوم بأعمال تركيب أجهزة السيرفرات والإشراف على عملها</li>
-                                <li>نقوم بتنصيب أجهزة الشبكات وتعزيزها</li>
-                                <li>نقوم بأعمال تمديد الشبكات سلكيا ولاسلكيا</li>
-                                <li>(شعارات أجهزة الشبكات والفم وير وسيسكو)</li>
-                            </ul>
-                        </div>
+                    <div class="networks-img">
+                        <h1>
+                            خدمات الشبكات
+                            <div>networks services</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="networks-img">
-                            <img src="imgs/services/sammyayot254-vIQDv6tUHYk-unsplash.jpg" alt="">
+                    <div class="networks-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h4>installation of networks</h4>
+                                <ul>
+                                    <li>We provide and supervise the installation of servers,</li>
+                                    <li>Install and enhance the networks.</li>
+                                    <li>And we extend wired and wireless networks.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="networks-arb">
+                                    <h4>تمديد وتركيب الشبكات</h4>
+                                        <ul>
+                                            <li>نقوم بأعمال تركيب أجهزة السيرفرات والإشراف على عملها</li>
+                                            <li>نقوم بتنصيب أجهزة الشبكات وتعزيزها</li>
+                                            <li>نقوم بأعمال تمديد الشبكات سلكيا ولاسلكيا</li>
+                                        </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,25 +175,26 @@
 
 
     <!-- start vpn section -->
-    <div class="vpn">
+    <div class="vpn margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="vpn-img">
-                            <img src="imgs/services/3629306_667.jpg" alt="">
-                        </div>
+                    <div class="vpn-img">
+                        <h1>
+                            خدمات الربط بين المواقع
+                            <div>vip site linkage servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="vpn-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-3"></i>
-                                <span>خدمات الربط بين المواقع VPN</span>
-                            </h5>
-                            <ul>
-                                <li>نركب أحدث أجهزة الربط بين المواقع عن طريق VPN وذلك من أجل ربط جميع المواقع والفروع في شبكة واحدة مؤمنة</li>
-                                <li>(شعار دراي تك )</li>
-                            </ul>
+                    <div class="vpn-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>We provide the latest web connectors by connecting all locations and branches into a single secure network.</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="vpn-arb">
+                                    <h5>نركب أحدث أجهزة الربط بين المواقع عن طريق وذلك من أجل ربط جميع المواقع والفروع في شبكة واحدة مؤمنة</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,25 +206,26 @@
 
 
     <!-- start Backup section -->
-    <div class="Backup">
+    <div class="Backup margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="Backup-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-4"></i>
-                                <span>خدمات النسخ الاحتياطي</span>
-                            </h5>
-                            <ul>
-                                <li>إيماناً بأهمية معلومات عملائنا نوفر لهم خدمة النسخ الاحتياطي الآمن سواءُ داخل شبكتهم وعلى الشبكة السحابية</li>
-                                <li>(شعارات فيييم و Acronis )</li>
-                            </ul>
-                        </div>
+                    <div class="Backup-img">
+                        <h1>
+                            خدمات النسخ الاحتياطي
+                            <div>backup servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="Backup-img">
-                            <img src="imgs/services/cloud-storage-data-information-concept.jpg" alt="">
+                    <div class="Backup-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>Our belief in the importance of our clients information, we provide them with a secure copying service both within their local network and the cloud network.</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="Backup-arb">
+                                    <h5>إيماناً بأهمية معلومات عملائنا نوفر لهم خدمة النسخ الاحتياطي الآمن سواءُ داخل شبكتهم وعلى الشبكة السحابية</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,25 +240,26 @@
 
 
     <!-- start cloudComputing section -->
-    <div class="cloudComputing">
+    <div class="cloudComputing  margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="cloudComputing-img">
-                            <img src="imgs/services/7199787_30495.jpg" alt="">
-                        </div>
+                    <div class="cloudComputing-img">
+                        <h1>
+                            خدمات الحوسبةالسحابية
+                            <div>cloud servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="cloudComputing-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-5"></i>
-                                <span>خدمات الحوسبة السحابية</span>
-                            </h5>
-                            <ul>
-                                <li>نؤفر خدمة الحوسبة السحابية لعملائنا من أجل حصولهم على سيرفرات بأحدث التقنية عن بعد وتكون مؤمنة بالكامل وسنؤفر هذه الخدمة من المملكة العربية السعودية وبعد الحصول على التراخيص اللازمة لذلك</li>
-                                <li>(شعارات رؤية الأشياء و فم واير و الكلاود وممكن ديل)</li>
-                            </ul>
+                    <div class="cloudComputing-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>We provide cloud services like SaaS, PaaS and IaaS to our customers in order to obtain servers with the latest technology and be fully secured and we will provide this service from the Kingdom of Saudi Arabia after obtaining their necessary licenses</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="cloudComputing-arb">
+                                    <h5>نؤفر خدمة الحوسبة السحابية لعملائنا من أجل حصولهم على سيرفرات بأحدث التقنية عن بعد وتكون مؤمنة بالكامل وسنؤفر هذه الخدمة من المملكة العربية السعودية وبعد الحصول على التراخيص اللازمة لذلك</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -235,25 +271,26 @@
 
 
     <!-- start securityCameras section -->
-    <div class="securityCameras">
+    <div class="securityCameras  margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="securityCameras-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-6"></i>
-                                <span>خدمة الكاميرات</span>
-                            </h5>
-                            <ul>
-                                <li>نقوم بتركيب وتمديد الكاميرات الأمنية وكاميرات المراقبة المنزلية وذلك وفق أنظمة وزارة الداخلية والأمن الصناعي</li>
-                                <li>(شركات الكاميرات ورؤية الحاسب)</li>
-                            </ul>
-                        </div>
+                    <div class="securityCameras-img">
+                        <h1>
+                            خدمات الكاميرات
+                            <div>cameras servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="securityCameras-img">
-                            <img src="imgs/services/pawel-czerwinski-zBTYRFCeaS0-unsplash.jpg" alt="">
+                    <div class="securityCameras-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>We install and extend security cameras and home surveillance cameras in accordance with the regulations of the Ministry of Interior and Industrial Security.</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="securityCameras-arb">
+                                    <h5>نقوم بتركيب وتمديد الكاميرات الأمنية وكاميرات المراقبة المنزلية وذلك وفق أنظمة وزارة الداخلية والأمن الصناعي</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -265,25 +302,26 @@
 
 
     <!-- start smartHomes section -->
-    <div class="smartHomes">
+    <div class="smartHomes  margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="smartHomes-img">
-                            <img src="imgs/services/moritz-kindler-PBtfsP3eEZ4-unsplash.jpg" alt="">
-                        </div>
+                    <div class="smartHomes-img">
+                        <h1>
+                            خدمات المنازل الذكية
+                            <div>smart home servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="smartHomes-text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-7"></i>
-                                <span>خدمة المنازل الذكية</span>
-                            </h5>
-                            <ul>
-                                <li>نساعد الأفراد على الاستفادة من سرعة الإنترنت في المملكة العربية السعودية وذلك عبر تقديم أحدث تقنيات إنترنت الأشياء من أجل تطوير منازلهم والتحكم بأجهزتهم لاسلكياً وتطوير أدائها </li>
-                                <li>(ring و امازون و جوجل و simplisafe و Notion)</li>
-                            </ul>
+                    <div class="smartHomes-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>We help individuals to get benefit from the speed of the Internet in Saudi Arabia by introducing the latest IoT technologies to develop their homes, wireless control and performance</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="smartHomes-arb">
+                                    <h5>نساعد الأفراد على الاستفادة من سرعة الإنترنت في المملكة العربية السعودية وذلك عبر تقديم أحدث تقنيات إنترنت الأشياء من أجل تطوير منازلهم والتحكم بأجهزتهم لاسلكياً وتطوير أدائها</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,25 +333,28 @@
 
 
     <!-- start CommunicationCenters section -->
-    <div class="CommunicationCenters">
+    <div class="CommunicationCenters  margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="text">
-                            <h5 class="fw-bold">
-                                <i class="fa-solid fa-8"></i>
-                                <span>خدمات مراكز الاتصالات</span>
-                            </h5>
-                            <ul>
-                                <li>نقوم بتركيب وتمديد وتهيئة أجهزة هواتف الشبكات لتواصل أفراد الشبكة </li>
-                                <li>(ring و امازون و جوجل و simplisafe و Notion)</li>
-                            </ul>
-                        </div>
+                    <div class="CommunicationCenters-img">
+                        <h1>
+                            خدمات مراكز الاتصالات
+                            <div>call center servers</div>
+                        </h1>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="CommunicationCenters-img">
-                            <img src="imgs/services/kaleidico-RDYdOvk8ats-unsplash.jpg" alt="">
+                    <div class="CommunicationCenters-text">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h5>We install, extend and configure IP phones to communicate people in the network.</h5>
+                                <h5>We also service unified call centers for companies.</h5>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="CommunicationCenters-arb">
+                                    <h5>نقوم بتركيب وتمديد وتهيئة أجهزة هواتف الشبكات لتواصل أفراد الشبكة</h5>
+                                    <h5>كما نقوم بخدمة مراكز الاتصالات الموحدة للشركات<h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -330,22 +371,24 @@
             <div class="container">
                 <div class="box">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="Security -img">
-                                <img src="imgs/services/victor-oRZDnS2QkuE-unsplash.jpg" alt="">
-                            </div>
+                        <div class="Security-img">
+                            <h1>
+                                خدمات الامن و الحماية
+                                <div>security and protection servers</div>
+                            </h1>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="text">
-                                <h5 class="fw-bold">
-                                    <i class="fa-solid fa-9"></i>
-                                    <span>خدمات الأمن والحماية</span>
-                                </h5>
-                                <ul>
-                                    <li>نؤفر لعملائنا أجهزة جدار الحماية لتوفير أعلى مستوى من الحماية والتحكم لشبكة</li>
-                                    <li>كما نؤفر برامج مكافحة الفيروسات لعملائنا</li>
-                                    <li>(اسفوس و بيت ديفندر و ESET)</li>
-                                </ul>
+                        <div class="Security-text">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <h5>We provide our customers with fire wall devices to provide the highest level in Protection and Control of Network.</h5>
+                                    <h5>We also provide antivirus software for our customers.</h5>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="Security-arb">
+                                        <h5>نؤفر لعملائنا أجهزة جدار الحماية لتوفير أعلى مستوى من الحماية والتحكم لشبكة</h5>
+                                        <h5>كما نؤفر برامج مكافحة الفيروسات لعملائنا<h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
