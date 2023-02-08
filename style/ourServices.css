@@ -29,9 +29,6 @@ header {
 
 
 /* start Research-development section */
-.Research-development {
-    margin-bottom: var(--mb);
-}
 .Research-development .row .Research-development-text {
     background-color: var(--blackColor);
     padding: 40px;

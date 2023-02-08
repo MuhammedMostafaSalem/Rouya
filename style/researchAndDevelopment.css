@@ -1,0 +1,74 @@
+.navbar {
+    background-color: var(--navyBlue);
+    margin-bottom: 50px;
+}
+
+
+
+/* start TakeAdvantageOfStrength section */
+.TakeAdvantageOfStrength .row img {
+    width: 450px;
+    height: 400px;
+}
+.TakeAdvantageOfStrength .row p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+@media (max-width:991px) {
+    .TakeAdvantageOfStrength .row img {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (max-width:767px) {
+    .TakeAdvantageOfStrength .row img {
+        width: 100%;
+        height: 450px;
+    }
+}
+/* end TakeAdvantageOfStrength section */
+
+
+
+
+
+/* start experience section */
+.experience .box {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 60px;
+}
+/* end experience section */
+
+
+
+
+
+
+/* start webDevelopmentSolutions section */
+.webDevelopmentSolutions .row img {
+    width: 450px;
+    height: 400px;
+}
+.webDevelopmentSolutions .row p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+@media (max-width:991px) {
+    .webDevelopmentSolutions .row img {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (max-width:767px) {
+    .webDevelopmentSolutions .row img {
+        width: 100%;
+        height: 450px;
+    }
+}
+/* end webDevelopmentSolutions section */
