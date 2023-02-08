@@ -1,0 +1,98 @@
+/* start IntroducingNetworks section */
+.IntroducingNetworks .row .IntroducingNetworks-text {
+    color: var(--whiteColor);
+}
+.IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
+    background-color: var(--cyanGreenColor);
+    text-align: right;
+    padding: 20px 40px;
+    height: 295px;
+}
+.IntroducingNetworks .row .IntroducingNetworks-img {
+    background-image: url(../imgs/network/futuristic-smart-city-with-5g-global-network-technology.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 295px;
+    margin-left: -24px;
+}
+.IntroducingNetworks .row .IntroducingNetworks-img h1 {
+    color: var(--whiteColor);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 50px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+/* media querry */
+@media (max-width:991px) {
+    .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
+        padding: 10px 40px;
+        line-height: 24px;
+    }
+}
+@media (max-width:767px) {
+    .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
+        line-height: 30px;
+    }
+    .IntroducingNetworks .row .IntroducingNetworks-img {
+        height: 250px;
+        margin-left: 0;
+    }
+}
+@media (max-width:575px) {
+    .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
+        padding: 10px;
+    }
+    .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
+        height: 100%;
+    }
+}
+/* start IntroducingNetworks section */
+
+
+
+
+/* start NetworkForms section */
+.NetworkForms .box {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    padding: 30px 50px;
+}
+@media (max-width:575px) {
+    .NetworkForms .box {
+        padding: 10px 20px;
+    }
+}
+/* end NetworkForms section */
+
+
+
+/* start NetworkTypes section */
+.NetworkTypes .box {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    padding: 30px 50px;
+}
+@media (max-width:575px) {
+    .NetworkTypes .box {
+        padding: 10px 20px;
+    }
+}
+/* end NetworkTypes section */
+
+
+
+
+/* start NetworkBenefits section */
+.NetworkBenefits .box {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    padding: 30px 50px;
+}
+@media (max-width:575px) {
+    .NetworkBenefits .box {
+        padding: 10px 20px;
+    }
+}
+/* end NetworkBenefits section */
