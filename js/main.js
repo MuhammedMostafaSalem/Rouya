@@ -1,4 +1,4 @@
-// section navigation
+/* select navigation */
 window.addEventListener('scroll', ()=> {
     let navbar = document.querySelector('.navbar');
     navbar.classList.toggle('sticky', window.scrollY > 150);
@@ -10,4 +10,28 @@ let navbarNav = document.querySelector('.navbar-nav');
 navbarToggler.addEventListener('click' , ()=> {
     iconBar.classList.toggle('fa-xmark');
     navbarNav.classList.toggle('active');
+});
+
+
+/* select solutions section */
+let tabs = document.querySelectorAll('.tabs p');
+let tabsArr = Array.from(tabs);
+let tabsContent = document.querySelectorAll('.tabs-content > .solution');
+let tabsContentArr = Array.from(tabsContent);
+
+tabsArr.forEach (ele => {
+    ele.addEventListener('click', e => {
+        tabsArr.forEach (elem => {
+            elem.classList.remove('active');
+        });
+
+        e.currentTarget.classList.add('active');
+
+        tabsContentArr.forEach (elem => {
+            elem.style.display = 'none';
+        });
+
+        let dataset = document.querySelector(e.currentTarget.dataset.content);
+        dataset.style.display = 'block';
+    });
 });

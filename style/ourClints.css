@@ -1,11 +1,39 @@
 .navbar {
     background-color: var(--navyBlue);
+    margin-bottom: 50px;
 }
 
 
 
 /* start clints section */
 .clints-section .box img {
-    width: 100%;
+    width: 280px;
+    height: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+/* media querry */
+@media (max-width:1199px) {
+    .clints-section .box img {
+        width: 235px;
+    }
+}
+@media (max-width:991px) {
+    .clints-section .box img {
+        width: 350px;
+        height: 300px;
+    }
+}
+@media (max-width:767px) {
+    .clints-section .box img {
+        width: 260px;
+    }
+}
+@media (max-width:575px) {
+    .clints-section .box img {
+        width: 100%;
+        height: 98%;
+    }
 }
 /* end clints section */

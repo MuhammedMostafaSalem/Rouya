@@ -45,24 +45,9 @@ header {
     margin-bottom: 20px;
     font-size: 32px;
 }
-.Research-development .row .Research-development-text h1 div {
-    font-size: 28px;
-}
-.Research-development .row .Research-development-text h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .Research-development .row .Research-development-text p {
     margin-bottom: 0;
     margin-left: 30px;
-}
-.Research-development .row .Research-development-text .Research-arb {
-    direction: rtl;
 }
 .Research-development .row .Research-development-img {
     background-image: url(../imgs/services/6.jpg);
@@ -72,16 +57,6 @@ header {
     padding: 20px 80px;
     line-height: 40px;
     position: relative;
-}
-.Research-development .row .Research-development-img::before {
-    content: "";
-    position: absolute;
-    background-color: var(--cyanGreenColor);
-    height: 100%;
-    width: 95px;
-    left: 0;
-    margin-top: -20px;
-    z-index: 2;
 }
 .Research-development .row .Research-development-img .overlay {
     background-color: #ffffff6e;
@@ -107,22 +82,7 @@ header {
 .Research-development .row .Research-development-img .Research-img-text .Research span {
     text-transform: capitalize;
     font-weight: bold;
-    margin-left: 40px;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research .research-arb2 {
-    margin-left: 115px;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research .research-arb3 {
-    margin-left: 220px;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research .research-arb4 {
-    margin-left: 80px;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research .research-arb5 {
-    margin-left: 110px;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research .research-arb6 {
-    margin-left: 115px;
+    margin-right: 40px;
 }
 
 /* media querry */
@@ -143,9 +103,6 @@ header {
     }
 }
 @media (max-width:575px) {
-    .Research-development .row .Research-development-img::before {
-        display: none;
-    }
     .Research-development .row .Research-development-img,
     .Research-development .row .Research-development-img .overlay  {
         height: 650px;
@@ -158,21 +115,6 @@ header {
     .Research-development .row .Research-development-img .Research-img-text .Research .research-arb {
         display: block;
         margin-left: 90px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb2 {
-        margin-left: 100px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb3 {
-        margin-left: 140px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb4 {
-        margin-left: 110px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb5 {
-        margin-left: 100px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb6 {
-        margin-left: 50px;
     }
 }
 /* end Research-development section */
@@ -200,18 +142,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.networks .row .networks-img h1 div {
-    font-size: 28px;
-}
-.networks .row .networks-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .networks .row .networks-text {
     margin-top: 70px;
 }
@@ -234,18 +164,12 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .networks .row .networks-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .networks .row .networks-text {
         margin-top: 50px;
     }
     .networks .row .networks-img h1 {
-        font-size: 20px;
-    }
-    .networks .row .networks-img h1 div {
         font-size: 20px;
     }
 }
@@ -274,18 +198,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.vpn .row .vpn-img h1 div {
-    font-size: 28px;
-}
-.vpn .row .vpn-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .vpn .row .vpn-text {
     margin-top: 70px;
 }
@@ -301,18 +213,12 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .vpn .row .vpn-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .vpn .row .vpn-text {
         margin-top: 50px;
     }
     .vpn .row .vpn-img h1 {
-        font-size: 20px;
-    }
-    .vpn .row .vpn-img h1 div {
         font-size: 20px;
     }
 }
@@ -342,18 +248,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.Backup .row .Backup-img h1 div {
-    font-size: 28px;
-}
-.Backup .row .Backup-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .Backup .row .Backup-text {
     margin-top: 70px;
 }
@@ -369,18 +263,12 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .Backup .row .Backup-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .Backup .row .Backup-text {
         margin-top: 50px;
     }
     .Backup .row .Backup-img h1 {
-        font-size: 20px;
-    }
-    .Backup .row .Backup-img h1 div {
         font-size: 20px;
     }
 }
@@ -409,18 +297,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.cloudComputing .row .cloudComputing-img h1 div {
-    font-size: 28px;
-}
-.cloudComputing .row .cloudComputing-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .cloudComputing .row .cloudComputing-text {
     margin-top: 70px;
 }
@@ -436,18 +312,12 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .cloudComputing .row .cloudComputing-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .cloudComputing .row .cloudComputing-text {
         margin-top: 50px;
     }
     .cloudComputing .row .cloudComputing-img h1 {
-        font-size: 20px;
-    }
-    .cloudComputing .row .cloudComputing-img h1 div {
         font-size: 20px;
     }
 }
@@ -476,18 +346,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.securityCameras .row .securityCameras-img h1 div {
-    font-size: 28px;
-}
-.securityCameras .row .securityCameras-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .securityCameras .row .securityCameras-text {
     margin-top: 70px;
 }
@@ -503,15 +361,9 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .securityCameras .row .securityCameras-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .securityCameras .row .securityCameras-img h1 {
-        font-size: 20px;
-    }
-    .securityCameras .row .securityCameras-img h1 div {
         font-size: 20px;
     }
 }
@@ -541,18 +393,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.smartHomes .row .smartHomes-img h1 div {
-    font-size: 28px;
-}
-.smartHomes .row .smartHomes-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .smartHomes .row .smartHomes-text {
     margin-top: 70px;
 }
@@ -568,18 +408,12 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .smartHomes .row .smartHomes-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .smartHomes .row .smartHomes-text {
         margin-top: 50px;
     }
     .smartHomes .row .smartHomes-img h1 {
-        font-size: 20px;
-    }
-    .smartHomes .row .smartHomes-img h1 div {
         font-size: 20px;
     }
 }
@@ -608,18 +442,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.CommunicationCenters .row .CommunicationCenters-img h1 div {
-    font-size: 28px;
-}
-.CommunicationCenters .row .CommunicationCenters-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .CommunicationCenters .row .CommunicationCenters-text {
     margin-top: 70px;
 }
@@ -635,15 +457,9 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .CommunicationCenters .row .CommunicationCenters-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .CommunicationCenters .row .CommunicationCenters-img h1 {
-        font-size: 20px;
-    }
-    .CommunicationCenters .row .CommunicationCenters-img h1 div {
         font-size: 20px;
     }
 }
@@ -671,18 +487,6 @@ header {
     position: absolute;
     margin-left: -12px;
 }
-.Security .row .Security-img h1 div {
-    font-size: 28px;
-}
-.Security .row .Security-img h1::before {
-    content: "";
-    position: absolute;
-    height: 54px;
-    width: 10px;
-    background-color: var(--whiteColor);
-    margin-left: -20px;
-    margin-top: 10px;
-}
 .Security .row .Security-text {
     margin-top: 70px;
 }
@@ -703,15 +507,9 @@ header {
         padding: 0 10px;
         margin-top: 210px;
     }
-    .Security .row .Security-img h1::before {
-        display: none;
-    }
 }
 @media (max-width:350px) {
     .Security .row .Security-img h1 {
-        font-size: 20px;
-    }
-    .Security .row .Security-img h1 div {
         font-size: 20px;
     }
 }
