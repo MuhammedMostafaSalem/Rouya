@@ -1,0 +1,62 @@
+/* start DefinitionOfBackup section */
+.DefinitionOfBackup .row .DefinitionOfBackup-text {
+    color: var(--whiteColor);
+}
+.DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+    background-color: var(--cyanGreenColor);
+    text-align: right;
+    padding: 20px 40px;
+    height: 295px;
+}
+.DefinitionOfBackup .row .DefinitionOfBackup-img {
+    background-image: url(../imgs/backup/hand-holding-cloud-system-with-data-protection.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 295px;
+    margin-left: -24px;
+}
+.DefinitionOfBackup .row .DefinitionOfBackup-img h1 {
+    color: var(--whiteColor);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 50px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+/* media querry */
+@media (max-width:1199px) {
+    .DefinitionOfBackup .row .DefinitionOfBackup-img h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width:991px) {
+    .DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+        padding: 10px 40px;
+        line-height: 24px;
+    }
+    .DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+        height: 100%;
+    }
+    .DefinitionOfBackup .row .DefinitionOfBackup-img {
+        height: 100%;
+    }
+}
+@media (max-width:767px) {
+    .DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+        line-height: 30px;
+    }
+    .DefinitionOfBackup .row .DefinitionOfBackup-img {
+        height: 250px;
+        margin-left: 0;
+    }
+}
+@media (max-width:575px) {
+    .DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+        padding: 10px;
+    }
+    .DefinitionOfBackup .row .DefinitionOfBackup-text .text-arb {
+        height: 100%;
+    }
+}
+/* start DefinitionOfBackup section */
