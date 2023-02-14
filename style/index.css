@@ -44,15 +44,12 @@ header {
 }
 .navbar .navbar-brand {
     display: flex !important;
+    gap: 5px;
     position: relative;
     overflow: hidden;
 }
 .navbar .navbar-brand span {
     font-size: 25px;
-    transition: 1s;
-}
-.navbar .navbar-brand:hover span {
-    transform: translateX(100%) !important;
 }
 .navbar .navbar-brand .nav-img-1 {
     width: 40px;
@@ -85,12 +82,27 @@ header {
     background-color: var(--whiteColor);
     height: 2px;
     width: 0;
-    right: 0;
+    left: 0;
     bottom: 3px;
     transition: 1s;
 }
 .navbar .nav-link:hover::after {
     width: 100%;
+}
+.navbar #language-selector {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.navbar #language-selector:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+.navbar #language-selector option {
+    background-color: var(--grayColor);
 }
 .navbar .dropdown-menu {
     padding: 10px;
@@ -136,11 +148,9 @@ header {
     position: relative;
     width: 100%;
     margin-top: 150px;
-    text-align: right;
 }
 .hero-section .hero-content h2 {
     color: #fff;
-    padding-left: 150px;
     font-size: 50px;
 }
 
@@ -148,11 +158,6 @@ header {
 @media (max-width:991px) {
     .hero-section {
         margin-top: 30px;
-    }
-}
-@media (max-width:767px) {
-    .hero-section .hero-content h2 {
-        padding-left: 0;
     }
 }
 @media (max-width:575px) {
