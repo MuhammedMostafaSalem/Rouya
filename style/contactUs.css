@@ -9,14 +9,6 @@ header {
 }
 .hero-section .hero-content h4 {
     color: var(--whiteColor);
-    margin-left: 120px;
-}
-
-/* media querry */
-@media (max-width:767px) {
-    .hero-section .hero-content h4 {
-        margin-left: 0;
-    }
 }
 /* end header */
 
@@ -79,6 +71,7 @@ header {
 }
 .contact-details .details div li {
     display: flex;
+    gap: 15px;
     align-items: center;
     list-style: none;
 }

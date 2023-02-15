@@ -124,6 +124,12 @@ const translations = {
         newsletterH3: "#Speak with Rouya",
         newsletterP: "Access the latest news and all things Rouya, including exclusive offers only through the Rouya newsletter",
         textContentClients: "The best clients",
+        heroContentH2: "Contact us",
+        heroContentH4: "Questions? inquiries? the support?",
+        formDetailsSpan: "Hello",
+        formDetailsH2: "We are glad to hear from you",
+        formMessage: "send message",
+        contactH1: "contact us",
     },
     ar : {
         rouya: "رؤية",
@@ -249,6 +255,12 @@ const translations = {
         newsletterH3: "# تكلم مع رؤية",
         newsletterP: "الوصول إلى آخر الأخبار وكل ما يخص رؤية ، بما في ذلك العروض الحصرية فقط من خلال نشرة رؤية الإخبارية",
         textContentClients: "أفضل العملاء",
+        heroContentH2: "تواصل معنا",
+        heroContentH4: "أسئلة؟ استفسارات؟ الدعم؟",
+        formDetailsSpan: "مرحبا",
+        formDetailsH2: "نحن سعداء لسماعك",
+        formMessage: "ارسل رسالة",
+        contactH1: "اتصل بنا",
     },
 };
 
