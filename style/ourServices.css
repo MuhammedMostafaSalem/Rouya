@@ -9,66 +9,31 @@ header {
 }
 .hero-section .hero-content h4 {
     color: #fff;
-    padding-left: 400px;
-}
-
-/* media querry */
-@media (max-width:991px) {
-    .hero-section .hero-content h4 {
-        padding-left: 200px;
-    }
-}
-@media (max-width:575px) {
-    .hero-section .hero-content h4 {
-        padding-left: 0;
-    }
 }
 /* end header */
 
 
 
 
-/* start Research-development section */
-.Research-development .row .Research-development-text {
-    background-color: var(--blackColor);
-    padding: 40px;
-    color: var(--whiteColor);
+.margin-bottom .content-img img {
+    width: 400px;
+    height: 450px;
+    border-radius: 40px;
 }
-.Research-development .row .Research-development-text h1 {
-    color: var(--whiteColor);
+.margin-bottom .content-text {
+    margin-top: 100px;
+}
+.margin-bottom .content-text h2,
+.margin-bottom .content-text h4 {
     font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    font-size: 32px;
-}
-.Research-development .row .Research-development-text p {
     margin-bottom: 0;
-    margin-left: 30px;
 }
-.Research-development .row .Research-development-img {
-    background-image: url(../imgs/services/6.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 400px;
-    padding: 20px 80px;
-    line-height: 40px;
-    position: relative;
+.margin-bottom .content-text p,
+.margin-bottom .content-text ul {
+    color: var(--grayColor);
+    margin-bottom: 0;
 }
-.Research-development .row .Research-development-img .overlay {
-    background-color: #ffffff6e;
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    left: 0;
-    margin-top: -20px;
-    z-index: 1;
-}
-.Research-development .row .Research-development-img .Research-img-text {
-    position: absolute;
-    z-index: 3;
-}
-.Research-development .row .Research-development-img .Research-img-text .Research i {
+.margin-bottom .row .Research-development-list .Research i {
     background-color: #000;
     color: #fff;
     padding: 7px 10px;
@@ -76,438 +41,56 @@ header {
     margin-top: 20px;
     border-radius: 50%;
 }
-.Research-development .row .Research-development-img .Research-img-text .Research span {
+.margin-bottom .row .Research-development-list .Research span {
     text-transform: capitalize;
     font-weight: bold;
-    margin-right: 40px;
 }
+.margin-bottom .Research-development-list {
+    padding: 0 40px;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateX(-300px);
+    opacity: 0;
+    transition: 2s;
+}
+.reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
 
 /* media querry */
 @media (max-width:1199px) {
-    .Research-development .row .Research-development-text {
-        padding: 20px;
+    .margin-bottom .content-img img {
+        width: 300px;
+        height: 350px;
+    }
+    .margin-bottom .content-text {
+        margin-top: 50px;
+    }
+}
+@media (max-width:991px) {
+    .margin-bottom .content-img img {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+    }
+    .margin-bottom .content-text {
+        margin-top: 0;
     }
 }
 @media (max-width:767px) {
-    .Research-development .row .Research-development-text {
-        padding: 10px;
-    }
-    .Research-development .row .Research-development-img::before {
-        width: 50px;
-    }
-    .Research-development .row .Research-development-img {
-        padding: 20px 35px;
-    }
-}
-@media (max-width:575px) {
-    .Research-development .row .Research-development-img,
-    .Research-development .row .Research-development-img .overlay  {
-        height: 650px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research span {
-        text-transform: capitalize;
-        font-weight: bold;
-        margin-left: 10px;
-    }
-    .Research-development .row .Research-development-img .Research-img-text .Research .research-arb {
-        display: block;
-        margin-left: 90px;
-    }
-}
-/* end Research-development section */
-
-
-
-/* start networks section */
-.networks .row .networks-img {
-    background-image: url(../imgs/services/7.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.networks .row .networks-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 400px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.networks .row .networks-text {
-    margin-top: 70px;
-}
-.networks .row .networks-text h4 {
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.networks .row .networks-text .networks-arb {
-    direction: rtl;
-}
-.networks .row .networks-text ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* media querry */
-@media (max-width:575px) {
-    .networks .row .networks-img h1 {
+    .margin-bottom .content-img img {
         width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .networks .row .networks-text {
-        margin-top: 50px;
-    }
-    .networks .row .networks-img h1 {
-        font-size: 20px;
-    }
-}
-/* end networks section */
-
-
-
-/* start vpn section */
-.vpn .row .vpn-img {
-    background-image: url(../imgs/services/8.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.vpn .row .vpn-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.vpn .row .vpn-text {
-    margin-top: 70px;
-}
-.vpn .row .vpn-text .vpn-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .vpn .row .vpn-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .vpn .row .vpn-text {
-        margin-top: 50px;
-    }
-    .vpn .row .vpn-img h1 {
-        font-size: 20px;
-    }
-}
-/* end vpn section */
-
-
-
-
-/* start Backup section */
-.Backup .row .Backup-img {
-    background-image: url(../imgs/services/9.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.Backup .row .Backup-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.Backup .row .Backup-text {
-    margin-top: 70px;
-}
-.Backup .row .Backup-text .Backup-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .Backup .row .Backup-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .Backup .row .Backup-text {
-        margin-top: 50px;
-    }
-    .Backup .row .Backup-img h1 {
-        font-size: 20px;
-    }
-}
-/* end Backup section */
-
-
-
-/* start cloudComputing section */
-.cloudComputing .row .cloudComputing-img {
-    background-image: url(../imgs/services/10.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.cloudComputing .row .cloudComputing-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.cloudComputing .row .cloudComputing-text {
-    margin-top: 70px;
-}
-.cloudComputing .row .cloudComputing-text .cloudComputing-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .cloudComputing .row .cloudComputing-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .cloudComputing .row .cloudComputing-text {
-        margin-top: 50px;
-    }
-    .cloudComputing .row .cloudComputing-img h1 {
-        font-size: 20px;
-    }
-}
-/* end cloudComputing section */
-
-
-
-/* start securityCameras section */
-.securityCameras .row .securityCameras-img {
-    background-image: url(../imgs/services/11.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.securityCameras .row .securityCameras-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.securityCameras .row .securityCameras-text {
-    margin-top: 70px;
-}
-.securityCameras .row .securityCameras-text .securityCameras-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .securityCameras .row .securityCameras-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .securityCameras .row .securityCameras-img h1 {
-        font-size: 20px;
-    }
-}
-/* end securityCameras section */
-
-
-
-
-/* start smartHomes section */
-.smartHomes .row .smartHomes-img {
-    background-image: url(../imgs/services/12.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.smartHomes .row .smartHomes-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.smartHomes .row .smartHomes-text {
-    margin-top: 70px;
-}
-.smartHomes .row .smartHomes-text .smartHomes-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .smartHomes .row .smartHomes-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .smartHomes .row .smartHomes-text {
-        margin-top: 50px;
-    }
-    .smartHomes .row .smartHomes-img h1 {
-        font-size: 20px;
-    }
-}
-/* end smartHomes section */
-
-
-
-/* start CommunicationCenters section */
-.CommunicationCenters .row .CommunicationCenters-img {
-    background-image: url(../imgs/services/13.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.CommunicationCenters .row .CommunicationCenters-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 450px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.CommunicationCenters .row .CommunicationCenters-text {
-    margin-top: 70px;
-}
-.CommunicationCenters .row .CommunicationCenters-text .CommunicationCenters-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:575px) {
-    .CommunicationCenters .row .CommunicationCenters-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
-    }
-}
-@media (max-width:350px) {
-    .CommunicationCenters .row .CommunicationCenters-img h1 {
-        font-size: 20px;
-    }
-}
-/* end CommunicationCenters section */
-
-
-/* start Security section */
-.Security .row .Security-img {
-    background-image: url(../imgs/services/14.jpg);
-    background-size: cover;
-    background-position: center center;
-    color: var(--whiteColor);
-    height: 250px;
-}
-.Security .row .Security-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 30px;
-    font-size: 32px;
-    background-color: var(--cyanGreenColor);
-    width: 550px;
-    padding: 20px 30px;
-    margin-top: 190px;
-    position: absolute;
-    margin-left: -12px;
-}
-.Security .row .Security-text {
-    margin-top: 70px;
-}
-.Security .row .Security-text .Security-arb {
-    direction: rtl;
-}
-
-
-/* media querry */
-@media (max-width:767px) {
-    .Security .row .Security-img h1 {
-        width: 510px;
+        height: 350px;
     }
 }
 @media (max-width:575px) {
-    .Security .row .Security-img h1 {
-        width: 100%;
-        padding: 0 10px;
-        margin-top: 210px;
+    .margin-bottom .Research-development-list {
+        padding: 0;
     }
 }
-@media (max-width:350px) {
-    .Security .row .Security-img h1 {
-        font-size: 20px;
-    }
-}
-/* end Security section */

@@ -130,6 +130,37 @@ const translations = {
         formDetailsH2: "We are glad to hear from you",
         formMessage: "send message",
         contactH1: "contact us",
+        ourServicesHeroH2: "Our services",
+        ourServicesHeroH4: "Everything in one place using the latest technologies",
+        metaH2: "Techniques metavirus",
+        metaP: "It is one of the divisions of Rouya company, and the service aims to transform the way users behave on the Internet by relying on meta virus or technologies beyond the world to carry out various activities that were carried out in a primitive way. At the state level as a whole and at the level of individuals",
+        researchH2: "Research and development services",
+        researchP: "The company provides the latest technical solutions through research and development in the following areas:",
+        researchSpan1: "Artificial intelligence",
+        researchSpan2: "Computer vision",
+        researchSpan3: "Bots",
+        researchSpan4: "Augmented reality",
+        researchSpan5: "The Internet of things",
+        researchSpan6: "3D printing",
+        networksH2: "Network services",
+        networksH4: "Extension and installation of networks",
+        networksLi1: "We install servers and supervise their work",
+        networksLi2: "We install and enhance network hardware",
+        networksLi3: "We do wired and wireless network extension works",
+        vpnH2: "Website linking services",
+        BackupH2: "Backup services",
+        BackupP: "Believing in the importance of our customers' information, we provide them with a secure backup service both within their network and on the cloud",
+        cloudComputingH2: "Services Cloud",
+        cloudComputingP: "It is one of the sections of the vision of a vision and it specializes in all the clouds .. In a vision, we consider that your work is our work and here to help your growth and start to convert your work towards the future through services and cloud solutions. to the cloud that efficiently meets your business needs and saves financial cost",
+        securityCamerasH2: "Camera services",
+        securityCamerasP: "We install and extend security cameras and home surveillance cameras, according to the regulations of the Ministry of Interior and Industrial Security",
+        smartHomesH2: "Smart home services",
+        smartHomesP: "We help individuals benefit from the speed of the Internet in the Kingdom of Saudi Arabia by providing the latest Internet of Things technologies in order to develop their homes, control their devices wirelessly and improve their performance",
+        CommunicationCentersH2: "Call center services",
+        CommunicationCentersP1: "We install, extend and configure network phones to communicate with network members",
+        CommunicationCentersP2: "We also serve unified call centers for companies",
+        SecurityH2: "Security Information",
+        SecurityP: "It is one of the divisions of Rouya Company, and it mainly specializes in information security. It aims to secure information from hacking (i.e. unauthorized access). It aims to protect information from manipulation, such as deletion, modification, or even using it for purposes that may cause harm to data owners",
     },
     ar : {
         rouya: "رؤية",
@@ -261,6 +292,37 @@ const translations = {
         formDetailsH2: "نحن سعداء لسماعك",
         formMessage: "ارسل رسالة",
         contactH1: "اتصل بنا",
+        ourServicesHeroH2: "خدماتنا",
+        ourServicesHeroH4: "كل شيء في مكان واحد باستخدام أحدث التقنيات",
+        metaH2: "تقنيات الميـتـا فيرس",
+        metaP: "هــي إحـدى الأقســـام التـابعــة لشــركـة رؤية والخـدمـــة تهـدف إلى تحويـل الطريقـة التي يتصـرف بها المستخدميــن عبــر الإنترنت من خلال الاعتمـاد على الميتـا فيــرس أو تقنيــات مـا وراء العالم للقيام بالأنشطة المختلفة التي كانت تتم بطريقة بدائيــة وسوف تكون شركتنـا من أوائل الشركـات الرائـدة في تبنـى هـذه التقنيــة وتنفيذهـا والاستفـادة منهـا على مستـوى الدولـة ككـل ومستوى الأفراد",
+        researchH2: "خدمات البحث والتطوير",
+        researchP: "توفر الشركة أحدث الحلول التقنية وذلك من خلال الأبحاث والتطوير في المجالات التالية :",
+        researchSpan1: "الذكاء الاصطناعي",
+        researchSpan2: "الرؤية بالحاسب",
+        researchSpan3: "الروبوتات",
+        researchSpan4: "الواقع المعزز",
+        researchSpan5: "انترنت الأشياء",
+        researchSpan6: "الطباعة ثلاثية الابعاد",
+        networksH2: "خدمات الشبكات",
+        networksH4: "تمديد وتركيب الشبكات",
+        networksLi1: "نقوم بأعمال تركيب أجهزة السيرفرات والإشراف على عملها",
+        networksLi2: "نقوم بتنصيب أجهزة الشبكات وتعزيزها",
+        networksLi3: "نقوم بأعمال تمديد الشبكات سلكيا ولاسلكيا",
+        vpnH2: "خدمات الربط بين المواقع",
+        BackupH2: "خدمات النسخ الاحتياطي",
+        BackupP: "إيماناً بأهمية معلومات عملائنا نوفر لهم خدمة النسخ الاحتياطي الآمن سواءُ داخل شبكتهم وعلى الشبكة السحابية",
+        cloudComputingH2: "الخـدمـات السـحابيــة",
+        cloudComputingP: "هـــي إحـــدى الأقســام التـابعـــة لشــركــة رؤية وهــي متخصصــــة بكـل الخدمـــات السحـابيــة.. فـي رؤية نعتبـــر أن عملــك هــو عملنـــا ونحـن هنـا لمساعدتـك على النمـو والبـدء فـي تحويل عمـلك نحـو المستقبــل من خلال الخدمات والحلول السحابية يمكن لخبرائنا مساعدتـك فـي التصميــم الفعال وإنشاء البنية التحتية السحابيـة وتقديمهـا وإدارتهـا والحلـول المستندة إلى السحابة التي تلائم احتياجات عملك بكفاءة وتوفير التكلفـة الماليـة",
+        securityCamerasH2: "خدمات الكاميرات",
+        securityCamerasP: "نقوم بتركيب وتمديد الكاميرات الأمنية وكاميرات المراقبة المنزلية وذلك وفق أنظمة وزارة الداخلية والأمن الصناعي",
+        smartHomesH2: "خدمات المنازل الذكية",
+        smartHomesP: "نساعد الأفراد على الاستفادة من سرعة الإنترنت في المملكة العربية السعودية وذلك عبر تقديم أحدث تقنيات إنترنت الأشياء من أجل تطوير منازلهم والتحكم بأجهزتهم لاسلكياً وتطوير أدائها",
+        CommunicationCentersH2: "خدمات مراكز الاتصالات",
+        CommunicationCentersP1: "نقوم بتركيب وتمديد وتهيئة أجهزة هواتف الشبكات لتواصل أفراد الشبكة",
+        CommunicationCentersP2: "كما نقوم بخدمة مراكز الاتصالات الموحدة للشركات",
+        SecurityH2: "امن الامعلومات",
+        SecurityP: "هــي إحـــدى الأقســـام التـابعـــة لشــركــة رؤية وتـختــص بشكل رئيسي في أمن المعلومات وتهدف إلى تأمين المعلومـات من الاختــراق (أي الوصـول غيــر المصـرح بـه) يهــدف إلـى حـمـايــة الـمـعـلـومــات مــن التـلاعــب بـهـا، كالحــذف أو التـعديــل أو حتـى استخدامها لأغراض قد تسبب ضرر على مالكي البيانات",
     },
 };
 
@@ -300,6 +362,28 @@ navbarToggler.addEventListener('click' , ()=> {
     iconBar.classList.toggle('fa-xmark');
     navbarNav.classList.toggle('active');
 });
+
+
+
+
+/* select reveal website elements on scroll */
+window.addEventListener('scroll', reveal=()=> {
+    let reveals = document.querySelectorAll('.reveal');
+    for(let i = 0; i <= reveals.length; i++) {
+        let windowHight = window.innerHeight;
+        let revealTop = reveals[i].getBoundingClientRect().top;
+        let revealPoint = 150;
+
+        if(revealTop < windowHight - revealPoint) {
+            reveals[i].classList.add('active');
+        }
+        else {
+            reveals[i].classList.remove('active');
+        }
+    }
+});
+
+
 
 
 /* select solutions section */
