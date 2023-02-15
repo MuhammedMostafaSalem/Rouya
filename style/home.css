@@ -9,23 +9,106 @@ header {
 
 
 
-/* start sponsor section */
-.sponsor {
-    padding: 25px 0;
-    border-bottom: 1px solid #ebe9e9;
-    margin-bottom: 50px;
+/* start services section */
+.services .services-title h1 {
+    color: var(--blackColor);
 }
-.sponsor .row img {
-    width: 200px;
+.services .services-title p {
+    color: var(--grayColor);
+}
+.services .services-title h1,
+.services .services-title p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.services a {
+    text-decoration: none;
+}
+.services .btn {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    font-weight: bold;
+}
+/* end services section */
+
+
+
+
+/* start swiper */
+.swiper {
+    width: 100%;
+    margin-top: 20px;
+}
+.swiper .swiper-wrapper {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.swiper .swiper-wrapper .card {
+    width: 260px;
+    height: 100%;
+    background-color: var(--navyBlue);
+    border-radius: 20px;
+    border: none;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.swiper .swiper-wrapper .card .card_image {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.swiper .swiper-wrapper .card .card_image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.swiper .swiper-wrapper .card .card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper .swiper-wrapper .card .card_content .card_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 0.2em;
+    line-height: 20px;
+    color: #ecebeb;
+}
+.swiper .swiper-wrapper .card .card_content .card_text {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 20px;
+    color: #fff;
 }
 
 /* media querry */
 @media (max-width:991px) {
-    .sponsor .row img {
-        width: 250px !important;
-    }
-}
-/* end sponsor section */
+    .swiper .swiper-wrapper .card {
+        width: 260px !important;
+        height: 100%;
+        background-color: var(--navyBlue);
+        border-radius: 20px;
+        border: none;
+        padding: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }}
+/* end swiper */
 
 
 
@@ -38,20 +121,10 @@ header {
     color: var(--grayColor);
 }
 .solutions .row .tabs {
-    /* margin-bottom: 50px; */
     border: 1px solid #bdbcbc;
     border-radius: 20px;
     padding: 10px 20px;
 }
-/* .solutions .row .tabs::before {
-    content: "";
-    position: absolute;
-    height: 50%;
-    width: 2px;
-    background-color: #bdbcbc;
-    right: 0;
-    margin-right: 350px;
-} */
 .solutions .row .tabs h5 {
     color: var(--blackColor);
     font-weight: bold;
@@ -113,199 +186,212 @@ header {
 
 
 
-/* start intro section */
-.intro .box {
-    background-color: var(--cyanGreenColor);
-    color: var(--whiteColor);
-    padding: 20px 40px;
-    border-radius: 20px;
+/* start ourProcess section */
+.ourProcess .row p {
+    color: var(--cyanGreenColor);
+    font-size: 40px;
 }
-/* end intro section */
-
-
-
-
-
-/* start AutomatedChat section */
-.section .row .section-text .text-arb {
-    background-color: var(--blackColor);
-    color: var(--whiteColor);
-    text-align: right;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding: 20px 40px;
+.ourProcess .row h1 {
+    color: var(--blackColor);
+    font-weight: 900;
+    font-size: 50px;
+}
+.ourProcess .row h3 {
+    color: var(--blackColor);
+    font-weight: 600;
+}
+.ourProcess .row p,
+.ourProcess .row h1,
+.ourProcess .row h3 {
+    margin-bottom: 0;
+}
+.ourProcess .row .ourProcessContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--blackColor);
+    border-radius: 50%;
+    left: 15px;
+}
+.ourProcess .row .ourProcessContainer .icon {
+    position: relative;
+    width: 100%;
     height: 100%;
+    left: -140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
-.section .row .section-img {
-    background-image: url(../imgs/home/smartphone.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    margin-left: -24px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.section .row .section-img h1 {
-    color: var(--whiteColor);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-right: 50px;
+.ourProcess .row .ourProcessContainer .icon .iBx {
     position: absolute;
-    margin-top: 30px;
+    font-size: 35px;
+    transition: 0.5s;
+    border: 2px solid var(--blackColor);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: var(--whiteColor);
+    transform: rotate(calc(360deg/8 * var(--i)));
+    transform-origin: 170px;
+    cursor: pointer;
+}
+.ourProcess .row .ourProcessContainer .icon .iBx.active {
+    border: 4px solid var(--cyanGreenColor);
+    font-size: 30px;
+}
+.ourProcess .row .ourProcessContainer .icon .iBx i {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    transform: rotate(calc(-360deg/8 * var(--i)));
+}
+.ourProcess .content {
+    position: absolute;
+    inset: 0;
+}
+.ourProcess .content .contentBx {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+.ourProcess .content > .contentBx:not(:first-child) {
+    display: none;
+}
+.ourProcess .content .contentBx p {
+    font-size: 30px;
 }
 
 /* media querry */
 @media (max-width:991px) {
-    .section .row .section-text .text-arb {
-        padding: 10px 40px;
-        line-height: 24px;
+    .ourProcess .row p {
+        font-size: 35px;
+    }
+    .ourProcess .row h1 {
+        font-size: 45px;
     }
 }
 @media (max-width:767px) {
-    .section .row .section-text .text-arb {
-        line-height: 28px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-    .section .row .section-img {
-        height: 250px;
-        margin-left: 0;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 0;
+    .ourProcess .row .ourProcessContainer {
+        left: 0;
+        top: 35px;
     }
 }
 @media (max-width:575px) {
-    .section .row .section-text .text-arb {
-        padding: 10px;
-    }
-}
-/* end AutomatedChat section */
-
-
-
-
-
-/* start RecommendationEngines section */
-.RecommendationEngines .row .section-text .text-arb {
-    background-color: var(--cyanGreenColor);
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.RecommendationEngines .row .section-img {
-    background-image: url(../imgs/home/pexels-alex-tepetidis-5279346.jpg);
-    margin-right: -24px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-/* media querry */
-@media (max-width:767px) {
-    .RecommendationEngines .row .section-text .text-arb {
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    .RecommendationEngines .row .section-img {
-        height: 250px;
-        margin-right: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-}
-/* end RecommendationEngines section */
-
-
-
-
-
-/* start ImageAndVoiceSearch section */
-.ImageAndVoiceSearch .row .section-img {
-    background-image: url(../imgs/home/pexels-brett-sayles-1080746.jpg);
-}
-.ImageAndVoiceSearch .row .section-text .text-arb {
-    background-color: var(--cyanGreenColor);
-}
-/* media querry */
-@media (max-width:991px) {
-    .ImageAndVoiceSearch .row .section-img h1 {
-        font-size: 25px;
-    }
-}
-@media (max-width:767px) {
-    .ImageAndVoiceSearch .row .section-img h1 {
+    .ourProcess .row p {
         font-size: 30px;
     }
-}
-/* end ImageAndVoiceSearch section */
-
-
-
-
-/* start CustomerIntelligence section */
-.CustomerIntelligence .row .section-text .text-arb {
-    background-color: var(--blackColor);
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.CustomerIntelligence .row .section-img {
-    background-image: url(../imgs/home/ai-background-business-technology-digital-transformation.jpg);
-    margin-right: -24px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-/* media querry */
-@media (max-width:767px) {
-    .CustomerIntelligence .row .section-text .text-arb {
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+    .ourProcess .row h1 {
+        font-size: 35px;
     }
-    .CustomerIntelligence .row .section-img {
+    .ourProcess .row h3 {
+        font-size: 20px;
+    }
+    .ourProcess .row .ourProcessContainer {
+        width: 250px;
         height: 250px;
-        margin-right: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
     }
+    .ourProcess .row .ourProcessContainer .icon .iBx {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        transform-origin: 143px;
+    }
+    .ourProcess .row .ourProcessContainer .icon .iBx.active {
+        font-size: 27px;
+    }
+    .ourProcess .row .ourProcessContainer .icon {
+        left: -120px;
+    }
+    .ourProcess .row .ourProcessContainer {
+        left: 20px;
+        right: 30px;
+    }
+    .ourProcess .content .contentBx {
+        left: 70px;
+        top: 100px;
+    }
+} 
+/* end ourProcess section */
+
+
+
+/* start statisTics section */
+.statisTics {
+    background-color: var(--navyBlue);
+    color: var(--whiteColor);
+    padding: 100px 0;
 }
-/* end CustomerIntelligence section */
-
-
-
-
-
-/* start Retargeting section */
-.Retargeting .row .section-img {
-    background-image: url(../imgs/home/remarketing-retargeting-are-they-the-same-thing-5f6202c7a554f.png);
+.statisTics .box h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center !important;
+    gap: 70px;
+    margin-bottom: 100px;
 }
-/* end Retargeting section */
-
-
-
-
-
-/* start conclusion section */
-.conclusion {
+.statisTics .box h1 span:nth-child(1):after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: var(--whiteColor);
+}
+.statisTics .box .row .statisTics-box {
+    display: flex;
+    gap: 20px;
     margin-bottom: 50px;
 }
-.conclusion .box {
-    background-color: var(--cyanGreenColor);
-    color: var(--whiteColor);
-    padding: 20px 40px;
+.statisTics .box .row .statisTics-box .statisTics-num {
+    color: var(--cyanGreenColor);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+}
+.statisTics .box .row .statisTics-box .statisTics-num i {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.statisTics .box .row .statisTics-box p {
+    align-self: center;
+    margin-bottom: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+}
+/* end statisTics section */
+
+
+
+/* satrt WhyChoose section */
+.WhyChoose h1,
+.WhyChoose h4 {
+    font-weight: bold;
+    color: var(--blackColor);
+    margin-bottom: 0;
+}
+.WhyChoose p {
+    color: var(--grayColor);
+    margin-bottom: 0;
+}
+.WhyChoose .WhyChoose-img img {
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
-.conclusion .box h1 {
-    font-weight: bold;
+
+/* media querry */
+@media (max-width:767px) {
+    .WhyChoose .WhyChoose-img img {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
 }
+/* end WhyChoose section */

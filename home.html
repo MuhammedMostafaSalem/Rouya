@@ -14,10 +14,13 @@
     <!-- link style file -->
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/home.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- start header -->
-    <header>
+    <header class="margin-bottom">
         <!-- start navbar section -->
         <nav class="navbar navbar-expand-lg navbar-dark fw-bold">
             <div class="container">
@@ -41,15 +44,15 @@
                                 Our services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="researchAndDevelopment.html">البحث والتطوير</a></li>
-                                <li><a class="dropdown-item" href="networks.html">الشبكات</a></li>
-                                <li><a class="dropdown-item" href="vpn.html">الربط بين المواقع</a></li>
-                                <li><a class="dropdown-item" href="backup.html">النسخ الاحتياطي</a></li>
-                                <li><a class="dropdown-item" href="#">الحوسبة السحابية</a></li>
-                                <li><a class="dropdown-item" href="#">الكاميرات</a></li>
-                                <li><a class="dropdown-item" href="#">المنازل الذكية</a></li>
-                                <li><a class="dropdown-item" href="#">مراكز الاتصالات</a></li>
-                                <li><a class="dropdown-item" href="#">الامن و الحماية</a></li>
+                                <li><a class="dropdown-item" href="researchAndDevelopment.html" data-lang="dropdownItem1"></a></li>
+                                <li><a class="dropdown-item" href="networks.html" data-lang="dropdownItem2"></a></li>
+                                <li><a class="dropdown-item" href="vpn.html" data-lang="dropdownItem3"></a></li>
+                                <li><a class="dropdown-item" href="backup.html" data-lang="dropdownItem4"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem5"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem6"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem7"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem8"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem9"></a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -93,28 +96,107 @@
 
 
 
-    <!-- start sponsor section -->
-    <div class="sponsor">
+    <!-- start services section -->
+    <div class="services margin-bottom">
         <div class="container">
             <div class="box">
-                <div class="row text-center">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <img src="imgs/home/spon-1.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <img src="imgs/home/spon-2.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <img src="imgs/home/spon-3.jpg" alt="">
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <img src="imgs/home/spon-4.jpg" alt="">
+                <div class="services-title text-center">
+                    <h1 data-lang="explore"></h1>
+                    <p data-lang="textPrag"></p>
+                </div>
+                <!-- swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/1.jpeg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research"></span>
+                                <p class="card_text" data-lang="provides"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/2.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research2"></span>
+                                <p class="card_text" data-lang="provides2"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/3.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research3"></span>
+                                <p class="card_text" data-lang="provides3"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/4.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research4"></span>
+                                <p class="card_text" data-lang="provides4"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/5.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research5"></span>
+                                <p class="card_text" data-lang="provides5"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/6.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research6"></span>
+                                <p class="card_text" data-lang="provides6"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/7.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research7"></span>
+                                <p class="card_text" data-lang="provides7"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/8.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research8"></span>
+                                <p class="card_text" data-lang="provides8"></p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="card_image">
+                                <img src="imgs/home/swiper/9.jpg" alt="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title" data-lang="research9"></span>
+                                <p class="card_text" data-lang="provides9"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <a href="ourServices.html" class="d-flex justify-content-center mt-4">
+                    <div class="btn" data-lang="swiperBtn"></div>
+                </a>
             </div>
         </div>
     </div>
-    <!-- end sponsor section -->
+    <!-- end services section -->
 
 
 
@@ -123,16 +205,16 @@
     <div class="solutions margin-bottom">
         <div class="container">
             <div class="title text-center">
-                <h4 class="fw-bold">نقدم أفضل حلول تصميم الويب وتطوير الويب التي مكنت العلامات التجارية العالمية في المملكة العربية السعودية من إنشاء تجارب رقمية مهمة.</h4>
+                <h4 class="fw-bold" data-lang="solutionTitle"></h4>
             </div>
             <div class="row row-solutions">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-solutions">
-                    <div class="tabs">
-                        <h5>حلول الخبرة الرقمية</h5>
-                        <p class="text-capitalize active" data-content=".solutions1">كيف يمكننا المساعدة</p>
-                        <p class="text-capitalize" data-content=".solutions2">اختر الصناعة الخاصة بك</p>
-                        <p class="text-capitalize" data-content=".solutions3">اكتشف احتياجاتك</p>
-                        <p class="text-capitalize" data-content=".solutions4">تقنيات المؤسسة</p>
+                    <div class="tabs"><!-- -->
+                        <h5 data-lang="digitalExperience"></h5>
+                        <p class="text-capitalize active" data-content=".solutions1" data-lang="solutions1"></p>
+                        <p class="text-capitalize" data-content=".solutions2" data-lang="solutions2"></p>
+                        <p class="text-capitalize" data-content=".solutions3" data-lang="solutions3"></p>
+                        <p class="text-capitalize" data-content=".solutions4" data-lang="solutions4"></p>
                     </div>
                 </div>
 
@@ -142,30 +224,30 @@
                         <div class="d-flex">
                             <div class="content-right">
                                 <div class="content-box">
-                                    <h5>الإستراتيجية الرقمية</h5>
-                                    <p>قم بمواءمة أهداف عملك والمتطلبات الفنية.</p>
+                                    <h5 data-lang="h1"></h5>
+                                    <p data-lang="p1"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>تصميم واجهة المستخدم / UX</h5>
-                                    <p>تعتمد تجربة المستخدم ذات الصلة على التصاميم التي تعتمد على البصيرة.</p>
+                                    <h5 data-lang="h2"></h5>
+                                    <p data-lang="p2"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>تطوير الشبكة</h5>
-                                    <p>تبسيط وتقديم حلول تطوير الويب المعقدة.</p>
+                                    <h5 data-lang="h3"></h5>
+                                    <p data-lang="p3"></p>
                                 </div>
                             </div>
                             <div class="content-left">
                                 <div class="content-box">
-                                    <h5>الهجرة</h5>
-                                    <p>الترحيل الآمن إلى CMS متفوق يعمل على ترقية أدائك.</p>
+                                    <h5 data-lang="h4"></h5>
+                                    <p data-lang="p4"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>DevOps</h5>
-                                    <p>الدعم والصيانة المستمرة التي تضمن نموك الرقمي واستمراريتك.</p>
+                                    <h5 data-lang="h5"></h5>
+                                    <p data-lang="p5"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>التسويق الرقمي</h5>
-                                    <p>سلس ومخصص عبر جميع القنوات لكل زائر لموقع الويب.</p>
+                                    <h5 data-lang="h6"></h5>
+                                    <p data-lang="p6"></p>
                                 </div>
                             </div>
                         </div>
@@ -174,30 +256,30 @@
                         <div class="d-flex">
                             <div class="content-right">
                                 <div class="content-box">
-                                    <h5>التعليم العالي</h5>
-                                    <p>التحول إلى تجربة أكاديمية رقمي.</p>
+                                    <h5 data-lang="h7"></h5>
+                                    <p data-lang="p7"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>الخدمات المالية</h5>
-                                    <p>حلول مخصصة للاقتصاد الرقمي والعميل.</p>
+                                    <h5 data-lang="h8"></h5>
+                                    <p data-lang="p8"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>التسوق</h5>
-                                    <p>اجذب عملاءك عبر جميع القنوات ونقاط الاتصال.</p>
+                                    <h5 data-lang="h9"></h5>
+                                    <p data-lang="p9"></p>
                                 </div>
                             </div>
                             <div class="content-left">
                                 <div class="content-box">
-                                    <h5>حكومة</h5>
-                                    <p>الخدمة العامة تناسب العصر الرقمي والمواطن.</p>
+                                    <h5 data-lang="h10"></h5>
+                                    <p data-lang="p10"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>وسائل الإعلام</h5>
-                                    <p>مشاركة فائقة وتجارب مستخدم.</p>
+                                    <h5 data-lang="h11"></h5>
+                                    <p data-lang="p11"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>المنظمات غير الربحية والمنظمات غير الحكومية</h5>
-                                    <p>عزز تبرعاتك ووسع مدى وصولك.</p>
+                                    <h5 data-lang="h12"></h5>
+                                    <p data-lang="p12"></p>
                                 </div>
                             </div>
                         </div>
@@ -206,30 +288,30 @@
                         <div class="d-flex">
                             <div class="content-right">
                                 <div class="content-box">
-                                    <h5>CMS للمؤسسات</h5>
-                                    <p>قم بتمكين فرق التسويق وتكنولوجيا المعلومات لديك لتقديم أداء أفضل.</p>
+                                    <h5 data-lang="h13"></h5>
+                                    <p data-lang="p13"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>إدارة المعرفة</h5>
-                                    <p>تعزيز التواصل والأداء في جميع الأقسام.</p>
+                                    <h5 data-lang="h14"></h5>
+                                    <p data-lang="p14"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>أتمتة التسويق</h5>
-                                    <p>تقديم نتائج حملة تسويقية فائقة عبر جميع القنوات.</p>
+                                    <h5 data-lang="h15"></h5>
+                                    <p data-lang="p15"></p>
                                 </div>
                             </div>
                             <div class="content-left">
                                 <div class="content-box">
-                                    <h5>تحسين محركات البحث في الموقع</h5>
-                                    <p>تأكد من أن صفحات الويب الخاصة بك تحتل المرتبة الأولى على محركات البحث.</p>
+                                    <h5 data-lang="h16"></h5>
+                                    <p data-lang="p16"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>خدمات دروبال المدارة</h5>
-                                    <p>استضافة موثوق بها ، وتمكين دروبال ، وتطوير وحدة مخصصة.</p>
+                                    <h5 data-lang="h17"></h5>
+                                    <p data-lang="p17"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>التجارة الإلكترونية</h5>
-                                    <p>امتلك أفضل تجربة رقمية مخصصة للتجارة الإلكترونية.</p>
+                                    <h5 data-lang="h18"></h5>
+                                    <p data-lang="p18"></p>
                                 </div>
                             </div>
                         </div>
@@ -238,26 +320,26 @@
                         <div class="d-flex">
                             <div class="content-right">
                                 <div class="content-box">
-                                    <h5>Varbase</h5>
-                                    <p>نظام إدارة المحتوى الكامل للمؤسسة وتوزيع Drupal الأكثر تنزيلًا على مستوى العالم.</p>
+                                    <h5 data-lang="h19"></h5>
+                                    <p data-lang="p19"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>Uber Publisher</h5>
-                                    <p>CMS مخصصة للشركات للوسائط الرقمية والأخبار ومنصات الترفيه التي تعتمد على المحتوى الثقيل.</p>
+                                    <h5 data-lang="h20"></h5>
+                                    <p data-lang="p20"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>أتمتة التسويق</h5>
-                                    <p>طور حملات مخصصة تحقق نتائج فائقة في دقائق.</p>
+                                    <h5 data-lang="h21"></h5>
+                                    <p data-lang="p21"></p>
                                 </div>
                             </div>
                             <div class="content-left">
                                 <div class="content-box">
-                                    <h5>Open Social</h5>
-                                    <p>قم بتنمية مجتمعك الاجتماعي الخاص بك وقم ببناء علاقات دائمة مع العملاء.</p>
+                                    <h5 data-lang="h22"></h5>
+                                    <p data-lang="p22"></p>
                                 </div>
                                 <div class="content-box">
-                                    <h5>Vardoc</h5>
-                                    <p>عزز التواصل والتعاون داخل مؤسستك باستخدام هذا النظام الأساسي المخصص القائم على المعرفة.</p>
+                                    <h5 data-lang="h23"></h5>
+                                    <p data-lang="p23"></p>
                                 </div>
                             </div>
                         </div>
@@ -272,221 +354,211 @@
 
 
 
-    <!-- start intro section -->
-    <!-- <div class="intro margin-bottom">
-        <div class="container">
-            <div class="box">
-                <p>
-                    يخاف الكثير منا من الكلمات الذكاء الاصطناعي (AI). يعتقد معظمهم أن هذا هو الموضوع الذي تمت مناقشته بشكل أفضل من قبل الأشخاص المشاركين بجدية في صناعات العلوم والتكنولوجيا. ومع ذلك ، قد لا يدرك الكثيرون كيف يؤثر الذكاء الاصطناعي على حياتنا اليومية ، وبشكل أكثر تحديدًا في تجربة الاستهلاك عبر الإنترنت.
-                    <br>
-                    <br>
-                    معقدة كما قد يبدو مصطلح "الذكاء الاصطناعي" ، حقيقة الأمر هو أنه يلغي العديد من تعقيدات التسويق الحديث. في أبسط المصطلحات ، يمكن فهم الذكاء الاصطناعي على أنه مجموعة أنظمة الكمبيوتر القادرة على أداء المهام التي تتطلب الذكاء البشري.
-                    <br>
-                    <br>
-                    وهذا يجعل الذكاء الاصطناعي من أهم أولويات الاستثمار لمعظم الشركات في صناعة التجارة الإلكترونية لأنه يمكّن عمالقة التجزئة عبر الإنترنت من الاستفادة من عجائب التعلم الآلي لتلبية الحجم المتزايد للعملاء. يتيح للشركات الوصول إلى مجموعة واسعة من البيانات المنظمة ، والتي تتم معالجتها وتحليلها بعد ذلك لمنح المتسوقين عبر الإنترنت تجربة تسوق محسنة وأكثر تخصيصًا.
-                    <br>
-                    <br>
-                    لإعطائك نظرة سريعة على هذه الاتجاهات المثيرة والسريعة في عصرنا ، إليك 5 أساليب للذكاء الاصطناعي تساعدك على البدء في الذكاء الاصطناعي لموقعك على الإنترنت للتجارة الإلكترونية.
-                </p>
-            </div>
-        </div>
-    </div> -->
-    <!-- end intro section -->
 
-
-
-
-
-    <!-- start AutomatedChat section -->
-    <!-- <div class="AutomatedChat section margin-bottom">
+    <!-- start ourProcess section -->
+    <div class="ourProcess  margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="section-img">
-                            <h1>
-                                الدردشة الآلية
-                            </h1>
-                        </div>
+                        <p data-lang="ourProcessP"></p>
+                        <h1 data-lang="ourProcessH"></h1>
+                        <h3 data-lang="ourProcessH3"></h3>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div class="section-text">
-                            <div class="text-arb">
-                                Chatbots هي واحدة من أكبر الأدوات التي تغير قواعد اللعبة والمدعومة بالذكاء الاصطناعي . من خلال معالجة اللغة الطبيعية (NLP) ، تستطيع Chatbots فهم كل من تفاعلات الصوت والدردشة الحية مع العملاء والاستجابة لها. تعمل برامج الدردشة NLP كممثلين لخدمة العملاء دون الحاجة إلى إنسان فعلي حيث يمكن استخدام برامج الدردشة الآلية في تطبيقات المراسلة الرئيسية عن طريق تضمينها في صفحة. توفر Chatbots للعملاء وقتًا سريعًا وأسهل للوصول إلى الأنشطة التجارية عبر الإنترنت باستخدام نفس منصات المراسلة التي يستخدمها العملاء يوميًا.
-                                <br>
-                                <br>
-                                يستفيد مطورو البرامج من الطلب على برامج الدردشة الآلية ، مع منصات مثل Drupal 8 تقدم وحدات تسهل على المستخدمين تصفح المواقع من خلال محادثات محددة مسبقًا باستخدام برامج الروبوت. كميزة إضافية ، يقدم الأفضل بينهم التكامل مع برامج Facebook Messenger ، و Alexa ، وبرامج الدردشة الآلية الأخرى.
+                        <div class="ourProcessContainer">
+                            <div class="icon">
+                                <div class="iBx active" data-class=".content1" style="--i:1;">
+                                    <i class="fa-solid fa-1"></i>
+                                </div>
+                                <div class="iBx" data-class=".content2" style="--i:2;">
+                                    <i class="fa-solid fa-2"></i>
+                                </div>
+                                <div class="iBx" data-class=".content3" style="--i:3;">
+                                    <i class="fa-solid fa-3"></i>
+                                </div>
+                                <div class="iBx" data-class=".content4" style="--i:4;">
+                                    <i class="fa-solid fa-4"></i>
+                                </div>
+                                <div class="iBx" data-class=".content5" style="--i:5;">
+                                    <i class="fa-solid fa-5"></i>
+                                </div>
+                                <div class="iBx" data-class=".content6" style="--i:6;">
+                                    <i class="fa-solid fa-6"></i>
+                                </div>
+                                <div class="iBx" data-class=".content7" style="--i:7;">
+                                    <i class="fa-solid fa-7"></i>
+                                </div>
+                                <div class="iBx" data-class=".content8" style="--i:8;">
+                                    <i class="fa-solid fa-8"></i>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="contentBx active content1">
+                                    <p data-lang="processContent1"></p>
+                                </div>
+                                <div class="contentBx content2">
+                                    <p data-lang="processContent2"></p>
+                                </div>
+                                <div class="contentBx content3">
+                                    <p data-lang="processContent3">Design</p>
+                                </div>
+                                <div class="contentBx content4">
+                                    <p data-lang="processContent4">Development</p>
+                                </div>
+                                <div class="contentBx content5">
+                                    <p data-lang="processContent5">Testing</p>
+                                </div>
+                                <div class="contentBx content6">
+                                    <p data-lang="processContent6"></p>
+                                </div>
+                                <div class="contentBx content7">
+                                    <p data-lang="processContent7"></p>
+                                </div>
+                                <div class="contentBx content8">
+                                    <p data-lang="processContent8"></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- end AutomatedChat section -->
+    </div>
+    <!-- end ourProcess section -->
 
 
 
 
-    <!-- start RecommendationEngines section -->
-    <!-- <div class="RecommendationEngines section margin-bottom">
+
+    <!-- start statisTics section -->
+    <div class="statisTics margin-bottom">
         <div class="container">
             <div class="box">
+                <h1><span>statis</span> <span>tics</span></h1>
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-text">
-                            <div class="text-arb">
-                                غالبًا ما يتم استخدامه من قبل الشركات التي تبيع مباشرة إلى المستهلكين ، فإن توصيات وتنبؤات المنتج (انظر محرك توصيات المنتج في الوقت الفعلي في Amazon ) تثبت أنها أسلوب تخصيص فعال يمكن تنفيذه بسهولة.
-                                <br>
-                                <br>
-                                تمنح التوصيات العملاء تجربة تسوق فريدة من خلال تحليل سلوكهم عبر الإنترنت. يتيح ذلك للعملاء الحصول على تفاعل أكثر صلة بالصفحة حيث توضح لهم التوصيات أنهم يخدمون كأفراد وليس بواجهة مقاس واحد يناسب الجميع.
-                                <br>
-                                <br>
-                                يعمل تكتيك محرك التوصية من خلال جمع معلومات حول ما قام العميل بتصفحه وشرائه وما تم تصفحه وشراؤه من قبل عملاء مشابهين. أهم جزء من محرك التوصيات هو القدرة على إظهار العروض ذات الصلة للعملاء لكل فرد.
-                                <br>
-                                <br>
-                                من الأمثلة الواضحة على هذا المبدأ في العمل هو Acquia Commerce : وهو منتج يوفر طريقة بسيطة لخلق تجارب مشترية مخصصة للمشتري ، ودمج المحتوى التجاري عبر مختلف المنصات وتبسيط بيانات الملف الشخصي للعملاء من مجموعة واسعة من المصادر.
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                30k
+                                <i class="fa-solid fa-plus"></i>
                             </div>
+                            <p data-lang="statisTicsP1"></p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-img">
-                            <h1>
-                                محركات التوصية
-                            </h1>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                30
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <p data-lang="statisTicsP2"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                05
+                            </div>
+                            <p data-lang="statisTicsP3"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                2.5k
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <p data-lang="statisTicsP4"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                50
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <p data-lang="statisTicsP5"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="statisTics-box">
+                            <div class="statisTics-num">
+                                03
+                            </div>
+                            <p data-lang="statisTicsP6"></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- end RecommendationEngines section -->
+    </div>
+    <!-- end statisTics section -->
 
 
 
-
-    <!-- start ImageAndVoiceSearch section -->
-    <!-- <div class="ImageAndVoiceSearch section margin-bottom">
+    <!-- satrt WhyChoose section -->
+    <div class="WhyChoose margin-bottom">
         <div class="container">
             <div class="box">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="section-img">
-                            <h1>
-                                الصور والبحث الصوتي
-                            </h1>
+                        <div class="WhyChoose-text">
+                            <h1 data-lang="WhyChooseH"></h1>
+                            <p data-lang="WhyChooseP"></p>
+                            <ol>
+                                <li>
+                                    <h4 data-lang="listChooseH4"></h4>
+                                    <p data-lang="listChooseP"></p>
+                                </li>
+                                <li>
+                                    <h4 data-lang="listChooseH2"></h4>
+                                    <p data-lang="listChooseP2"></p>
+                                </li>
+                                <li>
+                                    <h4 data-lang="listChooseH3"></h4>
+                                    <p data-lang="listChooseP3"></p>
+                                </li>
+                                <li>
+                                    <h4 data-lang="listChooseH4"></h4>
+                                    <p data-lang="listChooseP4"></p>
+                                </li>
+                                <li>
+                                    <h4 data-lang="listChooseH5"></h4>
+                                    <p data-lang="listChooseP5"></p>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div class="section-text">
-                            <div class="text-arb">
-                                تمكين محركات بحث التجارة الإلكترونية من التفكير بالطريقة التي يفكر بها البشر ، لا يقتصر استخدام الذكاء الاصطناعي للغة البرمجة اللغوية العصبية فقط على برامج الدردشة الآلية. ركزت بعض الشركات التي تهدف إلى تحسين التجارة الإلكترونية على العناصر المرئية للبحث. لقد وصفوا هذا البرنامج بأنه "ذكاء اصطناعي ذي رؤية". وهذا يتيح للمطورين إنشاء تطبيقات أكثر ذكاءً ترى العالم كما يفعل الأشخاص الحقيقيون. من خلال التعرف على الصور والفيديو المتقدم ، يتم تمكين الشركات لتطوير الخبرات التي تركز على العملاء للأفراد.
-                                <br>
-                                <br>
-                                نظرًا لأن برنامج AI يمكنه إدارة وفرز حجم أكبر بكثير من البيانات مقارنة بالبشر الفعليين ، فإن هذا التعلم الآلي يسمح للبرنامج بوضع علامات على المحتوى وتنظيمه والبحث عنه بصريًا من خلال وضع علامات على ميزات الصور ومقاطع الفيديو.
-                                <br>
-                                <br>
-                                خذ مهارات Alexa على سبيل المثال - يمكن للأعمال التجارية الاستفادة من وظيفة البحث الصوتي للمنتج ووضع المحتوى الخاص بهم في المقدمة والوسط. تتكامل وظيفة المهارة بشكل جيد مع Drupal ، وقد أدت إلى بعض حلول التسويق الذكية .
-                            </div>
+                        <div class="WhyChoose-img">
+                            <img src="imgs/home/2.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- end ImageAndVoiceSearch section -->
+    </div>
+    <!-- end WhyChoose section -->
 
 
 
 
 
-    <!-- start CustomerIntelligence section -->
-    <!-- <div class="CustomerIntelligence section margin-bottom">
-        <div class="container">
-            <div class="box">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-text">
-                            <div class="text-arb">
-                                الغرض من برنامج AI هو جمع أكبر قدر ممكن من البيانات حول مستخدمي النظام الأساسي. من الناحية المثالية ، يوفر الحجم الكبير من البيانات لمنظمة العفو الدولية المعلومات الضرورية اللازمة لتحقيق "إخراج ذكي". من أجل الحصول على رؤى في الوقت الحقيقي وشفافة وقابلة للتنفيذ ، يجب على شركات التجارة الإلكترونية: جمع وتخزين وتحليل حجم البيانات المتزايد باستمرار ؛ تكون قادرة على تحويل البيانات إلى ذكاء عملي ؛ استخدم المعلومات المجمعة للتواصل مع العملاء اعتمادًا على مكان تواجدهم في دورة حياة العميل.
-                                <br>
-                                <br>
-                                يعد جمع ذكاء العملاء أحد أهم أغراض برامج الذكاء الاصطناعي. يُنفذ عادةً في المراحل الأولى من الدورة ، ويكسب اكتساب ذكاء العملاء شركات التجارة الإلكترونية بالمعلومات الضرورية حول كل جانب تقريبًا من جوانب سلوك عملائها. وهذا يمكّن الشركات من إجراء تخمينات مدروسة حول مكان وجود كل فرد في دورة حياة العميل ، وتفضيل العميل لأنواع معينة من المنتجات ، وإيرادات العميل المحتملة.
-                                <br>
-                                <br>
-                                يمكنك العثور على توضيح جيد لهذا في المجتمع المزدهر الذي بني حول دمج Drupal مع أدوات ذكاء الأعمال (BI). مع تعاون المزيد والمزيد من المطورين للبناء باستخدام التكنولوجيا ، فإن جمع البيانات حول تفضيلات العملاء سوف يصبح أسهل.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-img">
-                            <h1>
-                                ذكاء العملاء
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+    <!-- start newsletter-section -->
+    <section class="newsletter py-4 margin-bottom">
+        <div class="container d-flex justify-content-between">
+            <div class="newsText text-white">
+                <h3 class="text-capitalize" data-lang="newsletterH3"></h3>
+                <p data-lang="newsletterP"></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your e-mail to subscribe">
+                <button>Submit</button>
             </div>
         </div>
-    </div> -->
-    <!-- end CustomerIntelligence section -->
-
-
-
-
-
-    <!-- start Retargeting section -->
-    <!-- <div class="Retargeting section margin-bottom">
-        <div class="container">
-            <div class="box">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-img">
-                            <h1>
-                                إعادة الاستهداف
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="section-text">
-                            <div class="text-arb">
-                                ستخبرك ديناميكيات الأعمال الأساسية أن تكلفة تعيين مستخدمين جدد لمنتج أكثر تكلفة من الحفاظ على المستخدمين الحاليين والاحتفاظ بهم. يمنح الذكاء الاصطناعي الشركات الفرصة لتحقيق أقصى استفادة من الاحتفاظ بالمستخدمين من خلال إعادة التوجيه. تُنفذ إعادة التوجيه ، التي يتم تنفيذها بعدة طرق ، على إعادة جذب المتسوقين وإيجاد طريقة لدعوتهم مرة أخرى إلى موقع الويب الخاص بك للحصول على فرصة أخرى لإجراء عمليات شراء على موقع الويب الخاص بك.
-                                <br>
-                                <br>
-                                يجعل التقدم المستمر في الذكاء الاصطناعي من الاحتمالات التي لا نهاية لها في صناعة التجارة الإلكترونية. تؤثر دراسة Gartner بشكل كبير على الطريقة التي تجذب بها شركات التجارة الإلكترونية العملاء والاحتفاظ بهم ، وتتوقع أنه بحلول عام 2020 ، سيتم إدارة 85 ٪ من علاقة العميل مع الأعمال التجارية دون الحاجة إلى تفاعل بشري. في حين أن عمالقة البيع بالتجزئة يتمتعون بميزة تجربة مبكرة مع ثورة الذكاء الاصطناعي ، يمكن لفرق التجارة الإلكترونية الأصغر أن تفعل الشيء نفسه الآن. نظرًا لأن الذكاء الاصطناعي يصبح أكثر تعقيدًا بمرور الوقت ، أصبحت شركات التجارة الإلكترونية قادرة الآن على تحسين تجربة التسوق للمستهلكين من خلال الاستفادة من قوة الذكاء الاصطناعي.الفيديو.
-                                <br>
-                                <br>
-                                على سبيل المثال ، يتكامل Drupal مع العديد من أدوات تجديد النشاط التسويقي مثل Facebook Pixel ومجموعة حلول تجديد النشاط التسويقي التي تقدمها Google. تستفيد الشركات بالفعل من الذكاء الاصطناعي عندما يتعلق الأمر بتجديد النشاط التسويقي - وستتسع خياراتها فقط من هذه النقطة إلى الأمام.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- end Retargeting section -->
-
-
-
-
-
-    <!-- start conclusion section -->
-    <!-- <div class="conclusion">
-        <div class="container">
-            <div class="box">
-                <h1>إستنتاج</h1>
-                <p>
-                    يستثمر المزيد والمزيد من الشركات الآن في الذكاء الاصطناعي لمواجهة عوائق نمو المنتج مثل تقليص التكاليف التشغيلية ، وإفساح المجال لمطابقة أكثر دقة للمنتج ، والحصول على مراجعات مشروعة للمنتج. على الرغم من أن تقنية الذكاء الاصطناعي لا تزال بعيدة جدًا عن كونها مثالية ، تعمل شركات التجارة الإلكترونية باستمرار نحو تحسين أدواتها لمواكبة طلب السوق. يمهد التعاون بين الشركات أيضًا الطريق لمشاركة كفاءات الذكاء الاصطناعي الخاصة بها ، والتي تخلق بعد ذلك أدوات ذكاء اصطناعي أكثر تعقيدًا.
-                    <br>
-                    <br>
-                    قد لا يلاحظ الدور الذي تلعبه الذكاء الاصطناعي في حياتنا اليومية ، ولكنه مهم للغاية. بدءًا من الأنظمة الأساسية مثل Facebook و Snapchat إلى تطبيقات التسوق عبر الإنترنت ، يمكننا أن نتأكد من أن تقنية AI ستهيمن على العصر الرقمي ، بصفتها محركًا للنمو المتسارع.
-                </p>
-            </div>
-        </div>
-    </div> -->
-    <!-- end conclusion section -->
-
-
+    </section>
+    <!-- start newsletter-section -->
 
 
 
@@ -495,39 +567,32 @@
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <nav>
-                            <ul class="ul-right d-flex">
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        الأحكام والشروط
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        سياسة الخصوصية
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        خدمة العملاء
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img class="logo" src="imgs/letterhead (1).png" alt=""><span class="rouya" data-lang="rouya"></span>
+                        <h4 class="mt-4">contact</h4>
+                        <p><span>address:</span> *******</p>
+                        <p><span>phone:</span> 0100000000000</p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="socail d-flex">
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h4 class="mt-4">about</h4>
+                        <a href="#">about us</a>
+                        <a href="#">delivary information</a>
+                        <a href="#">our services</a>
+                        <a href="#">contact us</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h4 class="mt-4">follow us</h4>
+                        <div class="socialIcons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container text-capitalize text-center">
+                        &copy;2023 All right with Rouya
                     </div>
                 </div>
             </div>
@@ -545,5 +610,8 @@
 
     <!-- link js file -->
     <script src="js/main.js" type="module"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>

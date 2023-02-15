@@ -107,7 +107,6 @@ header {
 .navbar .dropdown-menu {
     padding: 10px;
     margin-top: 2px;
-    text-align: right;
 }
 .navbar .dropdown-menu a {
     color: var(--navyBlue);
@@ -174,28 +173,199 @@ header {
 
 
 
+/* start newsletter-section */
+.newsletter {
+    background-color: var(--navyBlue);
+}
+.newsletter .newsText p {
+    width: 700px;
+    margin-top: -10px;
+}
+
+.newsletter .form {
+    display: flex;
+    margin-top: 20px;
+}
+.newsletter .form input {
+    height: 45px;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 320px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+}
+.newsletter .form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.newsletter .form button {
+    color: var(--whiteColor);
+    width: 80px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cyanGreenColor);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* do media query for responsive */
+@media (max-width:1199px) {
+    .newsletter .newsText p {
+        width:550px;
+    }
+    .newsletter .form input {
+        width: 300px;
+    }
+    .newsletter .form input::placeholder {
+        font-size: 18px;
+    }
+}
+@media (max-width:991px) {
+    .newsletter .newsText p {
+        width:350px;
+    }
+    .newsletter .form input {
+        width: 250px;
+    }
+    .newsletter .form input::placeholder {
+        font-size: 15px;
+    }
+}
+@media (max-width:767px) {
+    .newsletter .newsText p {
+        width:250px;
+    }
+    .newsletter .form input {
+        width: 180px;
+    }
+    .newsletter .form input::placeholder {
+        font-size: 10.5px;
+    }
+    .newsletter .form button {
+        font-size: 13px;
+    }
+}
+@media (max-width:575px) {
+    .newsletter .newsText p {
+        width: 100%;
+    }
+    .newsletter .container {
+        display: block !important;
+    }
+    .newsletter .form input {
+        width: 320px;
+    }
+    .newsletter .form input::placeholder {
+        font-size: 100%;
+    }
+}
+@media (max-width:333px) {
+    .newsletter .form input {
+        width: 200px;
+    }
+    .newsletter .form input::placeholder {
+        font-size: 70%;
+    }
+    .newsletter .form button {
+        width: 50px;
+        font-size: 12px;
+    }
+}
+/* end newsletter-section */
+
+
+
+
 /* start footer */
-footer {
-    border-top: 1px solid #ebe9e9;
-    padding-top: 10px;
+footer .row .logo {
+    width: 35px;
+    border-radius: 50%;
 }
-footer ul {
-    list-style: none;
+footer .row .rouya {
+    font-weight: bold;
+    color: var(--navyBlue);
+    font-size: 20px;
 }
-footer .ul-right {
-    position: relative;
+footer .row p {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: -8px;
 }
-footer .ul-right li:not(:last-child):after {
-    content: '|';
-    position: absolute;
-    margin-right: 150px;
-    bottom: 20%;
+footer .row span {
+    color: var(--blackColor);
+    font-size: 18px;
 }
-.socail {
-    justify-content: left;
+footer .row .socialIcons i {
+    padding-right: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--navyBlue);
 }
-footer ul li a,
-.socail a {
+footer .row .socialIcons i:hover {
+    color: var(--cyanGreenColor);
+}
+footer .row h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: capitalize;
     color: var(--navyBlue) !important;
+}
+footer .row a {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+footer .row img {
+    width: 70%;
+}
+footer .row .payApp,
+footer .row .payPlay {
+    border: 1px solid var(--orangeColor);
+    border-radius: 6px;
+    cursor: pointer;
+    width: 135px;
+}
+footer .row .pay {
+    width: 200px;
+}
+
+/* do media query for responsive */
+@media (max-width:1199px) {
+    footer .row .payApp,
+    footer .row .payPlay {
+        width: 110px !important;
+    }
+}
+@media (max-width:991px) {
+    footer .row .payApp,
+    footer .row .payPlay {
+        width: 50% !important;
+    }
+}
+@media (max-width:767px) {
+    footer .box {
+        text-align: center;
+    }
+    footer .row .payApp,
+    footer .row .payPlay {
+        width: 30% !important;
+    }
+    footer .row .installApp {
+        justify-content: center;
+    }
+}
+.footer-bottom {
+    padding: 20px 0;
+}
+.footer-bottom .container {
+    color: rgb(124, 124, 124);
 }
 /* end footer */
