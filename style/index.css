@@ -176,6 +176,7 @@ header {
 /* start newsletter-section */
 .newsletter {
     background-color: var(--navyBlue);
+    padding: 60px 0 !important;
 }
 .newsletter .newsText p {
     width: 700px;
@@ -191,9 +192,6 @@ header {
     padding: 0 10px;
     font-size: 20px;
     width: 320px;
-    border-radius: 10px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     border: none;
 }
 .newsletter .form input:focus {
@@ -206,12 +204,9 @@ header {
     height: 45px;
     font-weight: 600;
     font-size: 16px;
-    border-radius: 4px;
     border: none;
     cursor: pointer;
     background-color: var(--cyanGreenColor);
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
 }
 
 /* do media query for responsive */

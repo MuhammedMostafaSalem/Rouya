@@ -1,16 +1,19 @@
-.navbar {
-    background-color: var(--navyBlue);
-    margin-bottom: 50px;
+/* start header */
+header {
+    height: 80vh;
+    background-image: url(../imgs/clints/lukas-hND1OG3q67k-unsplash.jpg);
 }
+/* end header */
 
 
 
 /* start clints section */
 .clints-section .box img {
-    width: 280px;
-    height: 200px;
-    margin-bottom: 5px;
+    width: 250px;
+    height: 170px;
+    margin-bottom: 15px;
     border-radius: 20px;
+    border: 1px solid var(--grayColor);
 }
 
 /* media querry */

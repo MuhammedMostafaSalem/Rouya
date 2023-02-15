@@ -123,6 +123,7 @@ const translations = {
         listChooseP5: "Rouya services do not only depend on the implementation of ideas and projects from mobile and web applications, but also care about maintaining these works and ensuring their safety and free from any malfunctions",
         newsletterH3: "#Speak with Rouya",
         newsletterP: "Access the latest news and all things Rouya, including exclusive offers only through the Rouya newsletter",
+        textContentClients: "The best clients",
     },
     ar : {
         rouya: "رؤية",
@@ -246,7 +247,8 @@ const translations = {
         listChooseP4: "لضمان مدي المصداقية والتميز نقبل الدفع الأجل للمشاريع لنحقق طموحك في البدء في أسرع وقت وبأقل رأس مال وفي الناحية الاخري اثبات جدارتنا في التنفيذ",
         listChooseP5: "لا تتوقف خدمات رؤية علي فقط تنفيذ الافكار والمشاريع من تطبيقات الموبايل والويب ولكن ايضا تهتم بصيانة هذه الاعمال وضمان سلامتها وخلوها من اي اعطال",
         newsletterH3: "# تكلم مع رؤية",
-        newsletterP: "الوصول إلى آخر الأخبار وكل ما يخص رؤيا ، بما في ذلك العروض الحصرية فقط من خلال نشرة رءية الإخبارية",
+        newsletterP: "الوصول إلى آخر الأخبار وكل ما يخص رؤية ، بما في ذلك العروض الحصرية فقط من خلال نشرة رؤية الإخبارية",
+        textContentClients: "أفضل العملاء",
     },
 };
 
