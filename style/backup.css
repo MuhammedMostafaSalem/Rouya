@@ -1,3 +1,24 @@
+header.margin-bottom {
+    height: 50vh !important;
+}
+.margin-bottom .hero-section {
+    margin-top: 30px;
+}
+header .content-row {
+    text-align: center;
+    color: var(--whiteColor);
+}
+@media (max-width: 991px) {
+    header.margin-bottom {
+        height: 70vh !important;
+    }
+}
+@media (max-width: 575px) {
+    header.margin-bottom {
+        height: 90vh !important;
+    }
+}
+
 /* start DefinitionOfBackup section */
 .DefinitionOfBackup .row .DefinitionOfBackup-text {
     color: var(--whiteColor);
@@ -14,11 +35,13 @@
     background-position: center center;
     height: 295px;
     margin-left: -24px;
+    margin-right: -24px;
 }
-.DefinitionOfBackup .row .DefinitionOfBackup-img h1 {
+.DefinitionOfBackup .row .DefinitionOfBackup-img h3 {
     color: var(--whiteColor);
     font-weight: bold;
     text-transform: uppercase;
+    margin-left: 50px;
     margin-right: 50px;
     position: absolute;
     margin-top: 30px;
@@ -26,7 +49,7 @@
 
 /* media querry */
 @media (max-width:1199px) {
-    .DefinitionOfBackup .row .DefinitionOfBackup-img h1 {
+    .DefinitionOfBackup .row .DefinitionOfBackup-img h3 {
         font-size: 25px;
     }
 }
@@ -49,6 +72,7 @@
     .DefinitionOfBackup .row .DefinitionOfBackup-img {
         height: 250px;
         margin-left: 0;
+        margin-right: 0;
     }
 }
 @media (max-width:575px) {
