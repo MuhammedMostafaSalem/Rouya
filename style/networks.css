@@ -1,39 +1,62 @@
+header {
+    height: 90vh !important;
+}
+header .content-row {
+    margin-top: 50px;
+}
+@media (max-width: 991px) {
+    header .row img {
+        height: 255px !important;
+    }
+}
+@media (max-width: 767px) {
+    header {
+        height: 100vh !important;
+    }
+}
+
+
 /* start IntroducingNetworks section */
 .IntroducingNetworks .row .IntroducingNetworks-text {
     color: var(--whiteColor);
 }
 .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
     background-color: var(--cyanGreenColor);
-    text-align: right;
     padding: 20px 40px;
     height: 295px;
+    border-radius: 20px;
 }
 .IntroducingNetworks .row .IntroducingNetworks-img {
     background-image: url(../imgs/network/futuristic-smart-city-with-5g-global-network-technology.jpg);
     background-size: cover;
     background-position: center center;
     height: 295px;
-    margin-left: -24px;
+    border-radius: 20px;
 }
-.IntroducingNetworks .row .IntroducingNetworks-img h1 {
+.IntroducingNetworks .row .IntroducingNetworks-img h2 {
     color: var(--whiteColor);
     font-weight: bold;
     text-transform: uppercase;
-    margin-right: 50px;
+    margin: 0 50px;
     position: absolute;
     margin-top: 30px;
 }
 
 /* media querry */
 @media (max-width:991px) {
+    .IntroducingNetworks .row .IntroducingNetworks-img h2 {
+        margin: 20px 30px;
+        font-size: 25px;
+    }
     .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
-        padding: 10px 40px;
-        line-height: 24px;
+        padding: 10px 20px;
+        line-height: 18px;
     }
 }
 @media (max-width:767px) {
     .IntroducingNetworks .row .IntroducingNetworks-text .text-arb {
-        line-height: 30px;
+        line-height: 25px;
+        margin-top: 10px;
     }
     .IntroducingNetworks .row .IntroducingNetworks-img {
         height: 250px;
@@ -57,6 +80,7 @@
 .NetworkForms .box {
     background-color: var(--blackColor);
     color: var(--whiteColor);
+    border-radius: 20px;
     padding: 30px 50px;
 }
 @media (max-width:575px) {
@@ -73,6 +97,7 @@
     background-color: var(--cyanGreenColor);
     color: var(--whiteColor);
     padding: 30px 50px;
+    border-radius: 20px;
 }
 @media (max-width:575px) {
     .NetworkTypes .box {
@@ -89,6 +114,7 @@
     background-color: var(--blackColor);
     color: var(--whiteColor);
     padding: 30px 50px;
+    border-radius: 20px;
 }
 @media (max-width:575px) {
     .NetworkBenefits .box {
