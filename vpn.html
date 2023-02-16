@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,108 +15,110 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/networks.css">
     <link rel="stylesheet" href="style/researchAndDevelopment.css">
-    <link rel="stylesheet" href="style/ourServices.css">
 </head>
 <body>
-    <!-- start navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-dark fw-bold">
-        <div class="container">
-            <a class="navbar-brand fs-3" href="home.html">
-                <span>Rouya</span>
-                <img src="imgs/logo-white-transparent.png" class="nav-img-1" alt="">
-                <img src="imgs/letterhead (1).png" class="nav-img-2" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fa-solid fa-bars"></i>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">الرئيسية</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="ourServices.html" id="navbarDropdown" aria-expanded="false">
-                            خدماتنا
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="researchAndDevelopment.html">البحث والتطوير</a></li>
-                            <li><a class="dropdown-item" href="networks.html">الشبكات</a></li>
-                            <li><a class="dropdown-item" href="vpn.html">الربط بين المواقع</a></li>
-                            <li><a class="dropdown-item" href="backup.html">النسخ الاحتياطي</a></li>
-                            <li><a class="dropdown-item" href="#">الحوسبة السحابية</a></li>
-                            <li><a class="dropdown-item" href="#">الكاميرات</a></li>
-                            <li><a class="dropdown-item" href="#">المنازل الذكية</a></li>
-                            <li><a class="dropdown-item" href="#">مراكز الاتصالات</a></li>
-                            <li><a class="dropdown-item" href="#">الامن و الحماية</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="ourClints.html">عملاؤنا</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="whoWeAre.html">من نحن</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="contactUs.html">تواصل معنا</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav >
-    <!-- end navbar section -->
-
-
-
-
-
-    <!-- start vpn section -->
-    <div class="vpn margin-bottom">
-        <div class="container">
-            <div class="box">
-                <div class="row">
-                    <div class="vpn-img">
-                        <h1>
-                            خدمات الربط بين المواقع
-                        </h1>
-                    </div>
-                    <div class="vpn-text">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="vpn-arb">
-                                    <h5>نركب أحدث أجهزة الربط بين المواقع عن طريق وذلك من أجل ربط جميع المواقع والفروع في شبكة واحدة مؤمنة</h5>
+    <!-- start header -->
+    <header class="margin-bottom">
+        <!-- start navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-dark fw-bold">
+            <div class="container">
+                <a class="navbar-brand fs-3" href="home.html">
+                    <img src="imgs/logo-white-transparent.png" class="nav-img-1" alt="">
+                    <img src="imgs/letterhead (1).png" class="nav-img-2" alt="">
+                    <span data-lang="rouya">Rouya</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html" lang="en" data-lang="home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="ourServices.html" id="navbarDropdown" aria-expanded="false" data-lang="ourServices">
+                                Our services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="researchAndDevelopment.html" data-lang="dropdownItem1"></a></li>
+                                <li><a class="dropdown-item" href="networks.html" data-lang="dropdownItem2"></a></li>
+                                <li><a class="dropdown-item" href="vpn.html" data-lang="dropdownItem3"></a></li>
+                                <li><a class="dropdown-item" href="backup.html" data-lang="dropdownItem4"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem5"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem6"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem7"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem8"></a></li>
+                                <li><a class="dropdown-item" href="#" data-lang="dropdownItem9"></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ourClints.html" data-lang="ourClients">Our clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="whoWeAre.html" data-lang="aboutUs">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contactUs.html" data-lang="contactUs">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li>
+                            <select id="language-selector">
+                                <div>
+                                    <option value="en" data-lang="english" selected>English</option>
+                                    <option class="arOption" value="ar" data-lang="arabic">Arabic</option>
                                 </div>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav >
+        <!-- end navbar section -->
+
+        <!-- start hero section -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content-row">
+                                <h3 data-lang="vpnH3"></h3>
+                                <h6 data-lang="vpnH6"></h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 imgBox">
+                            <div class="content-img">
+                                <img src="imgs/network/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- end vpn section -->
+        <!-- end hero section -->
+    </header>
+    <!-- end header -->
 
 
 
 
 
     <!-- start IntroducingNetworks section -->
-    <div class="IntroducingNetworks margin-bottom">
+    <div class="IntroducingNetworks Introducing2 margin-bottom reveal">
         <div class="container">
             <div class="box">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="IntroducingNetworks-img">
-                            <h1 class="fs-4">
-                                مفهوم مواقع التواصل الاجتماعي
-                            </h1>
+                        <div class="IntroducingNetworks-img Introducing">
+                            <h2 class="fs-4" data-lang="IntroducingNetworksH2"></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="IntroducingNetworks-text">
-                            <div class="text-arb">
-                                يُمكن تعريف مواقع التواصل الاجتماعي بأنَّها تقنيّة تُسهّل تبادل الأفكار والمعلومات من خلال التواصل بين المجتمعات الافتراضيَّة، وهي تعتمد بشكل رئيسي على وجود الإنترنت المُتصل بأجهزة الحاسوب، أو الأجهزة اللوحيَّة، أو الهواتف، وتُمكّن المستخدمين من الوصول بسرعة إلى المحتوى الذي قد يكون معلومات شخصيَّة، أو مستندات، أو مقاطع فيديو، أو صور.
-                            </div>
+                            <div class="text-arb" data-lang="IntroducingNetworksText"></div>
                         </div>
                     </div>
                 </div>
@@ -131,31 +133,17 @@
 
 
     <!-- start NetworkForms section -->
-    <div class="NetworkForms margin-bottom">
+    <div class="NetworkForms margin-bottom reveal">
         <div class="container">
             <div class="box">
-                <h1>
-                    إيجابيات مواقع التواصل الاجتماعي
-                </h1>
-                <p>
-                    تُوفّر مواقع التواصل الاجتماعي العديد من الإيجابيَّات المختلفة للمُستخدمين ومنها:
-                </p>
+                <h2 data-lang="NetworkFormsH2"></h2>
+                <p data-lang="NetworkFormsP"></p>
                 <ul>
-                    <li>
-                        القدرة على التواصل مع الآخرين بشكل سهل في أي مكان؛ حيث أصبح المُستخدِم قادرًا على التواصل مع أصدقائه القدامى، أو التعرّف على أصدقاء جدد بطريقة سهلة.
-                    </li>
-                    <li>
-                        السرعة والسهولة في التواصل باستخدام التطبيقات؛ التي يُمكن تنزيلها وتثبيتها على أي نوع من الأجهزة المحمولة واستخدامها في أيّ مكان وزمان.
-                    </li>
-                    <li>
-                        المتابعة المُخصصة للأخبار والأحداث والمواضيع؛ إذ يُمكن للمُستخدِم تخصيص ما يتابعه على وسائل التواصل الاجتماعي ليحصل المحتوى الذي يُناسبه ويُثير اهتمامه، إضافةً إلى الوصول السريع والمباشر إلى الأخبار والمعلومات.
-                    </li>
-                    <li>
-                        الترويج للمُنتجات والخدمات، وتوسيع نطاق أعمالهم ليشمل أكبر عدد من الجمهور المُستهدف من خلال وسائل التواصل الاجتماعي.
-                    </li>
-                    <li>
-                        قضاء وقت فراغ ممتع ، خلال أوقات الاستراحة والإجازات
-                    </li>
+                    <li data-lang="NetworkFormsLI1"></li>
+                    <li data-lang="NetworkFormsLI2"></li>
+                    <li data-lang="NetworkFormsLI3"></li>
+                    <li data-lang="NetworkFormsLI4"></li>
+                    <li data-lang="NetworkFormsLI5"></li>
                 </ul>
             </div>
         </div>
@@ -167,29 +155,17 @@
 
 
     <!-- start NetworkTypes section -->
-    <div class="NetworkTypes margin-bottom">
+    <div class="NetworkTypes margin-bottom reveal">
         <div class="container">
             <div class="box">
-                <h1>سلبيات مواقع التواصل الاجتماعي</h1>
-                <p>
-                    بالرغم من الإيجابيات العديدة لوسائل التواصل الاجتماعي، إلا أنَّ هناك العديد من السلبيات التي تواجه مُستخدمي هذه المواقع، ومنها:
-                </p>
+                <h2 data-lang="NetworkTypes2H2"></h2>
+                <p data-lang="NetworkTypes2P"></p>
                 <ul>
-                    <li>
-                        انتهاك الخصوصيَّة؛ فعمليّة نشر كل شيء يخصّ المُستخدم على هذه المواقع قد تؤدي إلى تهديد خصوصيته، أو قد تُسبب له العديد من المشاكل في الحياة أو العمل.
-                    </li>
-                    <li>
-                        التنمر الإلكتروني (cyber bullying) ومقارنة النفس مع الآخرين؛ إذ يعاني العديد من الأشخاص من حالة من الضغط النفسيّ، والتوتر، والقلق وحتى الاكتئاب، نتيجة ما يتم نشره على هذه المواقع ومقارنة واقعهم مع ما يرونه، أو قد يصبحون هدفًا لأشخاص قد يتسلطون عليهم من خلال هذه المواقع ويستغلونهم.
-                    </li>
-                    <li>
-                        فقدان التفاعل الحقيقي بين الناس، واستبداله بالتفاعل عبر الإنترنت؛ ربما يجد الكثير من الناس أنَّ التفاعل عبر الإنترنت بديل سهل ومريح للتفاعل وجهًا لوجه، ممَّا قد يؤدي إلى انعزال الأفراد عن المجتمع.
-                    </li>
-                    <li>
-                        تشتت الانتباه؛ فاستخدام وسائل الاتصال الاجتماعي على الهواتف قد يتشتت انتباه المستخدمين، خاصَّة عند قيامهم بأعمال ونشاطات أخرى مثل قيادة السيارة، الأمر الذي يسبب الحوادث.
-                    </li>
-                    <li>
-                        عدم انتظام النوم؛ فالضوء الصادر من الأجهزة الإلكترونيًّة قد يُسبب اضطرابات لهم خلال النوم، ممَّا قد يؤثر على إنتاجيتهم ونشاطهم خلال اليوم اللاحق.
-                    </li>
+                    <li data-lang="NetworkTypes2LI1"></li>
+                    <li data-lang="NetworkTypes2LI2"></li>
+                    <li data-lang="NetworkTypes2LI3"></li>
+                    <li data-lang="NetworkTypes2LI4"></li>
+                    <li data-lang="NetworkTypes2LI5"></li>
                 </ul>
             </div>
         </div>
@@ -202,44 +178,54 @@
 
 
 
+    <!-- start newsletter-section -->
+    <section class="newsletter margin-bottom reveal">
+        <div class="container d-flex justify-content-between">
+            <div class="newsText text-white">
+                <h3 class="text-capitalize" data-lang="newsletterH3"></h3>
+                <p data-lang="newsletterP"></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your e-mail to subscribe">
+                <button>Submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- start newsletter-section -->
+
+
+
     <!-- start footer -->
     <footer>
         <div class="container">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <nav>
-                            <ul class="ul-right d-flex">
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        الأحكام والشروط
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        سياسة الخصوصية
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#"class="nav-link">
-                                        خدمة العملاء
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img class="logo" src="imgs/letterhead (1).png" alt=""><span class="rouya" data-lang="rouya"></span>
+                        <h4 class="mt-4">contact</h4>
+                        <p><span>address:</span> *******</p>
+                        <p><span>phone:</span> 0100000000000</p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="socail d-flex">
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="#"class="nav-link">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h4 class="mt-4">about</h4>
+                        <a href="#">about us</a>
+                        <a href="#">delivary information</a>
+                        <a href="#">our services</a>
+                        <a href="#">contact us</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h4 class="mt-4">follow us</h4>
+                        <div class="socialIcons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container text-capitalize text-center">
+                        &copy;2023 All right with Rouya
                     </div>
                 </div>
             </div>

@@ -43,7 +43,18 @@ header .content-row {
 }
 
 /* media querry */
+@media (max-width: 1199px) {
+    .Introducing2 .Introducing h2 {
+        text-transform: uppercase;
+        margin: 0 20px !important;
+        font-size: 20px !important;
+        margin-top: 50px !important;
+    }
+}
 @media (max-width:991px) {
+    .Introducing2 .Introducing h2 {
+        margin: 0 !important;
+    }
     .IntroducingNetworks .row .IntroducingNetworks-img h2 {
         margin: 20px 30px;
         font-size: 25px;
