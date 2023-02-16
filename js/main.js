@@ -162,6 +162,12 @@ const translations = {
         CommunicationCentersP2: "We also serve unified call centers for companies",
         SecurityH2: "Security Information",
         SecurityP: "It is one of the divisions of Rouya Company, and it mainly specializes in information security. It aims to secure information from hacking (i.e. unauthorized access). It aims to protect information from manipulation, such as deletion, modification, or even using it for purposes that may cause harm to data owners",
+        experienceP: '"The experience and work of Vision and Visions clients made them stand out from the crowd. Nothing was impossible for this team."',
+        TakeAdvantageOfStrengthH2: "Take advantage of our strength",
+        TakeAdvantageOfStrengthSPAN: "Designing the perfect experience for an organization relies on the perfect blend of digital technologies, software, and assets designed to help it grow.",
+        TakeAdvantageOfStrengthSPAN2: "Our Acquia certified team is consistently ranked among the top 10 providers of Drupal solutions for corporate website development in the world, and is renowned for its innovative approach to delivering projects aligned with business objectives.",
+        webDevelopmentSolutionsH2: "Leading enterprise web development solutions",
+        webDevelopmentSolutionsP: "Drupal is the leading technology of choice for companies and organizations looking to create meaningful experiences for their customers. Our Acquia-certified team of Drupal developers have a rich history of creating digital experiences across the healthcare, nonprofit, financial, higher education, and public services industries.",
     },
     ar : {
         rouya: "رؤية",
@@ -325,6 +331,12 @@ const translations = {
         CommunicationCentersP2: "كما نقوم بخدمة مراكز الاتصالات الموحدة للشركات",
         SecurityH2: "امن الامعلومات",
         SecurityP: "هــي إحـــدى الأقســـام التـابعـــة لشــركــة رؤية وتـختــص بشكل رئيسي في أمن المعلومات وتهدف إلى تأمين المعلومـات من الاختــراق (أي الوصـول غيــر المصـرح بـه) يهــدف إلـى حـمـايــة الـمـعـلـومــات مــن التـلاعــب بـهـا، كالحــذف أو التـعديــل أو حتـى استخدامها لأغراض قد تسبب ضرر على مالكي البيانات",
+        experienceP: '"إن خبرة وعمل رؤية وعملاء رؤية جعلتهم يبرزون عن الآخرين. لم يكن هناك شيء مستحيل لهذا الفريق."',
+        TakeAdvantageOfStrengthH2: "استفد من قوتنا",
+        TakeAdvantageOfStrengthSPAN: "يعتمد تصميم التجربة المثاليّة للمؤسّسة على المزيج المثالي من التقنيات الرقمية والبرامج والأصول المصممة خصيصًا لمساعدتها على النمو.",
+        TakeAdvantageOfStrengthSPAN2 : "تم تصنيف فريقنا المعتمد من Acquia على الدوام بأنه من بين أفضل 10 مزودي حلول دروپال لتطوير مواقع الويب للشركات في العالم، وهو مشهور بنهجه المبتكر في تسليم المشروعات تنضبط مع أهداف العمل.",
+        webDevelopmentSolutionsH2: "حلول تطوير الويب الرائدة للمؤسسات",
+        webDevelopmentSolutionsP: "دروبال هو التقنية الرائدة في اختيار الشركات والمؤسّسات التي تتطلع لخلق تجارب مفيدة لعملائها. يتمتع فريقنا المعتمد من Acquia من مطوري دروپال بتاريخ غني في إنشاء تجارب رقمية عبر قطاعات الرعاية الصحية، والمؤسسات غير الربحية، والمالية، والتعليم العالي، والخدمات العامة.",
     },
 };
 

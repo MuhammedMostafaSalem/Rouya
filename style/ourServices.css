@@ -50,18 +50,6 @@ header {
 }
 
 
-.reveal {
-    position: relative;
-    transform: translateX(-300px);
-    opacity: 0;
-    transition: 2s;
-}
-.reveal.active {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-
 
 /* media querry */
 @media (max-width:1199px) {
