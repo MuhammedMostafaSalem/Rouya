@@ -148,6 +148,7 @@ const translations = {
         networksLi2: "We install and enhance network hardware",
         networksLi3: "We do wired and wireless network extension works",
         vpnH2: "Website linking services",
+        vpnP: "We install the latest inter-site connectivity devices in order to connect all sites and branches into one secure network",
         BackupH2: "Backup services",
         BackupP: "Believing in the importance of our customers' information, we provide them with a secure backup service both within their network and on the cloud",
         cloudComputingH2: "Services Cloud",
@@ -310,6 +311,7 @@ const translations = {
         networksLi2: "نقوم بتنصيب أجهزة الشبكات وتعزيزها",
         networksLi3: "نقوم بأعمال تمديد الشبكات سلكيا ولاسلكيا",
         vpnH2: "خدمات الربط بين المواقع",
+        vpnP: "نركب أحدث أجهزة الربط بين المواقع عن طريق وذلك من أجل ربط جميع المواقع والفروع في شبكة واحدة مؤمنة",
         BackupH2: "خدمات النسخ الاحتياطي",
         BackupP: "إيماناً بأهمية معلومات عملائنا نوفر لهم خدمة النسخ الاحتياطي الآمن سواءُ داخل شبكتهم وعلى الشبكة السحابية",
         cloudComputingH2: "الخـدمـات السـحابيــة",
@@ -367,7 +369,8 @@ navbarToggler.addEventListener('click' , ()=> {
 
 
 /* select reveal website elements on scroll */
-window.addEventListener('scroll', reveal=()=> {
+window.addEventListener('scroll', reveal);
+function reveal() {
     let reveals = document.querySelectorAll('.reveal');
     for(let i = 0; i <= reveals.length; i++) {
         let windowHight = window.innerHeight;
@@ -381,7 +384,7 @@ window.addEventListener('scroll', reveal=()=> {
             reveals[i].classList.remove('active');
         }
     }
-});
+};
 
 
 
@@ -430,23 +433,4 @@ iconARR.forEach(element => {
         let datasetCercle = document.querySelector(e.currentTarget.dataset.class);
         datasetCercle.style.display = 'block';
     });
-});
-
-
-
-/* swiper */
-var swiper = new Swiper(".mySwiper", {
-    loop: true,
-    autoplay: true,
-    outoplayTimeout: 1000,
-    autoplayHoverPause: true,
-
-    slidesPerView: 4,
-    centeredSlides: true,
-    spaceBetween: 30,
-    grabCursor: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
 });
