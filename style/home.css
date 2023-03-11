@@ -35,12 +35,49 @@ header {
 
 
 /* start card slider */
-.card-slider {
+/* #carouselExampleControls {
+    position: relative;
+}
+
+#carouserExampleControls .carousel-inner {
+    padding: 1em !important;
+}
+
+#carouselExampleControls .btnGroup {
+    display: flex !important;
+    margin-top: 350px;
+}
+#carouselExampleControls .btnGroup .carousel-control-next,
+#carouselExampleControls .btnGroup .carousel-control-prev {
+    opacity: 1;
+}
+#carouselExampleControls .btnGroup .carousel-control-prev-icon,
+#carouselExampleControls .btnGroup .carousel-control-next-icon {
+    background-image: none;
+}
+#carouselExampleControls .btnGroup .carousel-control-prev-icon i,
+#carouselExampleControls .btnGroup .carousel-control-next-icon i {
+    color: var(--cyanGreenColor);
+    font-size: 35px;
+}
+#carouselExampleControls .btnGroup .carousel-control-prev-icon {
+    margin-left: 56rem;
+}
+#carouselExampleControls .btnGroup .carousel-control-next-icon {
+    margin-right: 56rem;
+}
+
+
+
+#carouselExampleControls .card-wrapper {
+    display: flex;
+}
+#carouselExampleControls .card-slider {
     width: 100%;
     overflow: hidden;
     margin-top: 20px;
 }
-.card-slider .card-wrapper {
+#carouselExampleControls .card-slider .card-wrapper {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% - (6rem * (var(--per-view) - 1))) / var(--per-view));
@@ -48,8 +85,8 @@ header {
     left: 0;
     transition: 2s;
 }
-.card-slider .card-wrapper .card {
-    width: 260px;
+#carouselExampleControls .card-wrapper .card {
+    width: calc(100% / 3) !important;
     height: 100%;
     background-color: var(--navyBlue);
     border-radius: 20px;
@@ -60,26 +97,26 @@ header {
     align-items: center;
     margin: 0 10px;
 }
-.card-slider .card-wrapper .card .card_image {
+#carouselExampleControls .card-wrapper .card .card_image {
     width: 100%;
     height: 50%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
 }
-.card-slider .card-wrapper .card .card_image img {
+#carouselExampleControls .card-wrapper .card .card_image img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
     
 }
-.card-slider .card-wrapper .card .card_content {
+#carouselExampleControls .card-wrapper .card .card_content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.card-slider .card-wrapper .card .card_content .card_title {
+#carouselExampleControls .card-wrapper .card .card_content .card_title {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -88,45 +125,110 @@ header {
     line-height: 20px;
     color: #ecebeb;
 }
-.card-slider .card-wrapper .card .card_content .card_text {
+#carouselExampleControls .card-wrapper .card .card_content .card_text {
     text-align: center;
     font-size: 1.1em;
     margin-top: 10px;
     margin-bottom: 0;
     line-height: 20px;
     color: #fff;
+} */
+
+
+.services .cardsWapper {
+    display: flex;
+}
+.services .card {
+    width: calc(100% / 3) !important;
+    background-color: var(--navyBlue);
+    border-radius: 20px;
+    border: none;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.carousel2 .card {
+    width: 95% !important;
+    margin: 0 10px !important;
+}
+.services .card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.services .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .card .card-body .card_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 0.2em;
+    line-height: 20px;
+    color: #ecebeb;
+}
+.services .card .card-body .card_text {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.services .carousel {
+    position: relative;
+    margin-top: 25px;
+}
+.carousel-control-prev {
+    margin-left: 0 !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+    height: 1px;
+    margin-top: -20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+    color: var(--cyanGreenColor);
+    font-size: 35px;
 }
 
 
 /* media querry */
 @media (max-width:1199px) {
-    .card-slider .card-wrapper .card {
-        width: 230px;
+    .carousel-control-prev {
+        margin-left: -45px;
     }
 }
 @media (max-width:991px) {
-    .card-slider .card-wrapper .card {
-        width: 280px;
-    }
-    .card-slider .card-wrapper {
-        grid-auto-columns: calc((100% - (-6rem * (var(--per-view) - 1))) / var(--per-view));
+    .carousel-control-prev {
+        margin-left: -40px;
     }
 }
 @media (max-width:767px) {
-    .card-slider .card-wrapper .card {
-        width: 300px;
-    }
-    .card-slider .card-wrapper {
-        grid-auto-columns: calc((100% - (-15rem * (var(--per-view) - 1))) / var(--per-view));
+    .carousel-control-prev {
+        margin-left: -40px;
     }
 }
 @media (max-width:575px) {
-    .card-slider .card-wrapper .card {
-        width: 90%;
+    .services .cardsWapper .card:not(:first-child) {
+        display: none;
     }
-    .card-slider .card-wrapper {
-        gap: 20px;
-        grid-auto-columns: calc((100% - (-15rem * (var(--per-view) - 1))) / var(--per-view));
+    .carousel-control-prev {
+        margin-left: -40px;
+    }
+    .services .services-title h1 {
+        font-size: 20px;
     }
 }
 /* end swiper */
