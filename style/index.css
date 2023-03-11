@@ -370,7 +370,7 @@ footer .row .pay {
 /* start reveal */
 .reveal {
     position: relative;
-    transform: translateY(300px);
+    transform: translateY(-300px);
     opacity: 0;
     transition: 2s;
 }

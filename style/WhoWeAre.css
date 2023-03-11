@@ -25,26 +25,21 @@ header {
 
 .whoAreWe .row .whoAreWe-text .text-arb {
     background-color: var(--cyanGreenColor);
-    text-align: right;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
     padding: 20px 40px;
     height: 295px;
+    width: 100% !important;
 }
 .whoAreWe .row .whoAreWe-img {
     background-image: url(../imgs/whoWeAre/2.jpg);
     background-size: cover;
     background-position: center center;
     height: 295px;
-    margin-left: -24px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 .whoAreWe .row .whoAreWe-img h1 {
     color: var(--whiteColor);
     font-weight: bold;
     text-transform: uppercase;
-    margin-right: 50px;
+    margin: 0 50px;
     position: absolute;
     margin-top: 30px;
 }
@@ -61,7 +56,7 @@ header {
     }
     .whoAreWe .row .whoAreWe-text .text-arb {
         padding: 10px 40px;
-        line-height: 24px;
+        line-height: 20px;
     }
 }
 @media (max-width:767px) {
@@ -85,6 +80,7 @@ header {
 @media (max-width:575px) {
     .whoAreWe .row .whoAreWe-text .text-arb {
         padding: 10px;
+        line-height: 20px;
     }
 }
 /* end whoAreWe section */
@@ -103,7 +99,7 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50px;
-    margin-right: 130px;
+    margin: 0 130px;
 }
 .IntroducingManager .row .IntroducingManager-img h5 {
     text-align: center;
@@ -117,8 +113,7 @@ header {
     height: 80px;
     width: 80px;
     background-color: #51a29d7e;
-    margin-right: 100px;
-    margin-top: -370px;
+    margin: -370px 100px;
     border-radius: 20px;
 }
 .IntroducingManager .row .IntroducingManager-img::before {
@@ -127,8 +122,7 @@ header {
     height: 80px;
     width: 80px;
     background-color: #51a29d7e;
-    margin-top: 250px;
-    margin-right: 380px;
+    margin: 250px 380px;
     border-radius: 20px;
 }
 
@@ -139,7 +133,7 @@ header {
         padding-right: 0;
     }
     .IntroducingManager .row .IntroducingManager-img img {
-        margin-right: 0;
+        margin: 0;
     }
     .IntroducingManager .row .IntroducingManager-img::after {
         display: none;
@@ -157,7 +151,7 @@ header {
         width: 100%;
     }
     .IntroducingManager .row .IntroducingManager-text {
-        margin-right: 0;
+        margin: 0;
         margin-top: 10px;
     }
 }
@@ -172,51 +166,35 @@ header {
 
 
 /* start vision section  */
-.vision-section .row .vision-img {
-    margin-left: -24px;
-}
 .vision-section .row .vision-img img {
     height: 400px;
     width: 100%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    object-fit: cover;
 }
 .vision-section .row .vision-text {
     background-color: var(--blackColor);
     color: var(--whiteColor);
     height: 400px;
     padding: 20px 40px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
 }
 .vision-section .row .vision-text h1 {
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .vision-section .row .vision-text .meggage {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* media querry */
 @media (max-width:991px) {
-    .vision-section .row .vision-text h1 {
-        margin-bottom: 10px;
-    }
     .vision-section .row .vision-text p {
         line-height: 23px;
     }
 }
 @media (max-width:767px) {
-    .vision-section .row .vision-text h1 {
-        margin-bottom: 30px;
-    }
     .vision-section .row .vision-text p {
         line-height: 1.5;
-    }
-    .vision-section .row .vision-img {
-        margin-left: 0;
     }
     .vision-section .row .vision-text {
         border-top-left-radius: 0;
@@ -260,8 +238,6 @@ header {
 }
 .values-section .box .row h1 {
     font-weight: bold;
-    margin-left: -500px;
-    text-align: left;
     margin-bottom: 30px;
 }
 
