@@ -265,6 +265,11 @@ const translations = {
         TypesCamerasLi3: "PTZ mobile cameras. These cameras are suitable for large areas, as they work in all directions, right and left, up and down. They can work in all directions and shoot on a large scale, and the ability to rotate up to 360 degrees horizontally and 90 degrees vertically.",
         TypesCamerasLi4: "Wireless cameras These cameras transmit the signal without wires and connect to the Internet via Wi-Fi and are used in places where cables cannot be extended.",
         TypesCamerasLi5: "IP network cameras, which are the modern type or the new generation, which are Internet Protocol cameras. Network cameras that are connected directly to the router of the Internet and transmit data over the network. They are connected with display and recording devices, and they are also cameras equipped with infrared rays for night surveillance.",
+        features1H3: "Rationalization of energy consumption",
+        features2H3: "A friend of the environment",
+        features1H6: "The sensors in the smart home perform many tasks. For example, they are responsible for turning on the lights automatically when you enter the room and turning them off as soon as you leave. They also turn off the air conditioner and heater if the weather is suitable, in addition to stopping the work of many devices and systems if you go out or not. need to use it.",
+        features2H6: "The advantages of a smart home also include preserving the environment, as many smart homes rely on the sun as a primary source of energy, not to mention reducing their use of fuel and electricity, which reduces environmental pollution.",
+        featuresH2: "The most important features of the smart home",
     },
     ar : {
         rouya: "رؤية",
@@ -531,6 +536,11 @@ const translations = {
         TypesCamerasLi3: "كاميرات متحركة PTZ  وهذه الكاميرات تصلح للمساحات الواسعة حيث انها تعمل في جميع الاتجاهات يمينا ويسارا إلى اعلى وإلى اسفل، تستطيع العمل في جميع الاتجاهات والتصوير على نطاق واسع والقدرة على الدوران تصل إلى 360 درجة أفقيا و90 درجة راسي",
         TypesCamerasLi4: "كاميرات لاسلكية Wireless تنقل هذه الكاميرات الإشارة دون اسلاك وتتصل بشبكة النت عن طريق الواى فاى وتستخدم في الاماكن التي لا يمكن مد كابلات لها",
         TypesCamerasLi5: "كاميرات شبكية IP وهي النوع الحديث أو الجيل الجديد وهي كاميرات بروتوكول الإنترنت. كاميرات شبكية يتم توصيلها بشكل مباشر على الموجه الخاصة بالانترنت وتنقل البيانات عبر الشبكة.يتم توصيلها مع أجهزة عرض وتسجيل وهي أيضا كاميرات مجهزة بالأشعة تحت الحمراء والمخصصة للمراقبة الليلية.",
+        features1H3: "ترشيد استهلاك الطاقة",
+        features2H3: "صديق للبيئة",
+        features1H6: "تقوم المستشعرات الموجودة في البيت الذكي بالعديد من المهام، فهي مسؤولة مثلاً عن إشعال الإنارة تلقائياً عند دخولك الغرفة، وإطفائها فور خروجك، كما وتقوم بإيقاف عمل المكيّف والمدفأة في حال كان الطقس مناسباً، بالإضافة إلى إيقاف عمل العديد من الأجهزة والأنظمة في حال خروجك أو عدم الحاجة لاستخدامها.",
+        features2H6: "تشمل مميزات البيت الذكي أيضاً الحفاظ على البيئة، فالعديد من البيوت الذكية تعتمد على الشمس كمصدر أساسي للطاقة، ناهيك عن تقليل استخدامها للوقود والكهرباء، ما يحد من التلوث البيئي.",
+        featuresH2: "أهم مميزات البيت الذكي",
     },
 };
 
