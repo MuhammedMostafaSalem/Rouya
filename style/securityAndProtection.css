@@ -1,0 +1,25 @@
+.InformationSecurityFeatures .row {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.basicPrinciples h6 {
+    font-weight: bold;
+}
+.basicPrinciples .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.principles1, .principles3 {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
+.principles2 {
+    background-color: var(--navyBlue);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
