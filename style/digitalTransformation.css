@@ -1,0 +1,22 @@
+header {
+    height: 80vh;
+    background-color: var(--navyBlue);
+}
+.AdvantagesOfDigitalTransformation .container,
+.RequirementsAndSteps .container {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
+.AdvantagesOfDigitalTransformation ol li,
+.ChallengesAndPillars ul li,
+.RequirementsAndSteps ol li, .theStrategy ul li {
+    font-size: 20px;
+}
+.ChallengesAndPillars .container, .theStrategy .container {
+    background-color: var(--navyBlue);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
