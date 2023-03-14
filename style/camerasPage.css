@@ -1,0 +1,11 @@
+header {
+    height: 75vh;
+    background-color: var(--navyBlue);
+}
+.margin-bottom .content-img img {
+    border-radius: 50px;
+}
+.TypesOfSurveillanceCameraSystems .row, 
+.TypesCameras .row {
+    padding: 20px !important;
+}
