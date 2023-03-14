@@ -1,0 +1,12 @@
+.callCenterTechnology .container, .callCenterMechanisms .container {
+    background-color: var(--cyanGreenColor);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
+.Patents .container {
+    background-color: var(--navyBlue);
+    color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 50px;
+}
