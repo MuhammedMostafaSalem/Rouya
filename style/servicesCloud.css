@@ -1,0 +1,80 @@
+header {
+    height: 75vh;
+    background-image: none;
+    background-color: var(--navyBlue);
+}
+.margin-bottom .content-img img {
+    width: 350px;
+    height: 215px;
+}
+.margin-bottom .content-text {
+    margin-top: 10px;
+}
+
+
+/* start Advantages cloud */
+.advantagesTitle h3, .AdvantagesType h3 {
+    font-weight: 600;
+}
+.advantagesTitle, .typeTitle {
+    margin-bottom: 50px;
+}
+
+.advantage_speed, .advantage_Flexibile {
+    color: var(--whiteColor);
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+/* start advantage_speed */
+.advantage_speed {
+    background-color: var(--navyBlue);
+}
+.advantage_speed h3 {
+    text-transform: capitalize;
+}
+.advantage_speed img, .advantage_Flexibile img {
+    width: 100% !important;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/* end advantage_speed */
+
+/* start advantage_Flexibile */
+.advantage_Flexibile {
+    background-color: var(--cyanGreenColor);
+}
+/* end advantage_Flexibile */
+
+/* end Advantages cloud */
+
+
+/* start AdvantagesType */
+.AdvantagesType {
+    margin-bottom: 100px;
+}
+.AdvantagesType .row {
+    background-color: var(--navyBlue);
+    color: var(--whiteColor);
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* end AdvantagesType */
+
+
+/* media querry */
+@media (max-width:1199px) {
+    .margin-bottom .content-img img {
+        width: 300px;
+    }
+}
+@media (max-width:1199px) {
+    header {
+        height: 90vh;
+    }
+}
