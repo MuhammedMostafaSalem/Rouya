@@ -321,6 +321,10 @@ const translations = {
         theStrategyLi2: "The strategy aims to achieve higher rates of well-being for citizens and residents, and to facilitate their lives.",
         theStrategyLi3: "In 2017, a permanent committee was established under the name of the National Committee for Digital Transformation",
         theStrategyLi4: "The Government E-Transactions Program (YERS) diagnoses the maturity of government agencies in government digital transformation.",
+        offerCamera: "Camera",
+        offerTitle: "Dahua",
+        offerDesc: "Dahua set of 8 indoor and outdoor surveillance cameras with a resolution of 2 mega pixels, day and night imaging, with a recording device that can be viewed from the mobile phone",
+        offerBtn: "BUY",
     },
     ar : {
         rouya: "رؤية",
@@ -643,6 +647,10 @@ const translations = {
         theStrategyLi2: "تهدف االسرتاتيجية لتحقيق معدالت عليا من الرفاهية للمواطن والمقيم وتسهيل أمور حياتهم المعيشية.",
         theStrategyLi3: "في 2017 ،أنشئت لجنة دائمة باسم اللجنة الوطنية للتحول الرقمي.",
         theStrategyLi4: "يقوم برنامج التعامالت االلكرتونية الحكومية (يرس) بتشخيص مدى نضج الجهات الحكومية في التحول الرقمي الحكومي.",
+        offerCamera: "كاميرا",
+        offerTitle: "داهوا",
+        offerDesc: "داهوا مجموعة من 8 كاميرات مراقبة داخلية وخارجية بدقة 2 ميغا بيكسل ، تصوير نهاري وليلي ، مع جهاز تسجيل يمكن مشاهدته من الهاتف المحمول",
+        offerBtn: "شراء",
     },
 };
 
