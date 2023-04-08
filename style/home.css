@@ -534,6 +534,20 @@ header {
     font-weight: bold;
     line-height: 30px;
 }
+@media (max-width: 575px) {
+    .statisTics .box .row .statisTics-box .statisTics-num {
+        font-size: 36px;
+    }
+    .statisTics .box .row .statisTics-box .statisTics-num i {
+        font-size: 20px;
+    }
+    .statisTics .box .row .statisTics-box p {
+        font-size: 20px;
+    }
+    .statisTics .box .row .statisTics-box {
+        justify-content: center;
+    }
+}
 /* end statisTics section */
 
 
