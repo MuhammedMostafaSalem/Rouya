@@ -437,7 +437,53 @@ header {
         left: 70px;
         top: 100px;
     }
-} 
+}
+@media (max-width: 327px) {
+    .ourProcess .row .ourProcessContainer {
+        width: 205px;
+        height: 205px;
+        left: 30px;
+    }
+    .ourProcess .row .ourProcessContainer .icon .iBx {
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+        transform-origin: 135px;
+    }
+    .ourProcess .row .ourProcessContainer .icon .iBx.active {
+        font-size: 22px;
+    }
+    .ourProcess .content .contentBx {
+        left: 23px;
+        top: 74px;
+    }
+    .ourProcess .row .ourProcessContainer .icon {
+        left: -117px;
+    }
+}
+@media (max-width: 298px) {
+    .ourProcess .row .ourProcessContainer {
+        width: 150px;
+        height: 150px;
+        left: 20px;
+    }
+    .ourProcess .row .ourProcessContainer .icon {
+        left: -80px;
+    }
+    .ourProcess .row .ourProcessContainer .icon .iBx {
+        font-size: 18px;
+        width: 35px;
+        height: 35px;
+        transform-origin: 100px;
+    }
+    .ourProcess .content .contentBx {
+        left: 15px;
+        top: 50px;
+    }
+    .ourProcess .content .contentBx p {
+        font-size: 22px;
+    }
+}
 /* end ourProcess section */
 
 
