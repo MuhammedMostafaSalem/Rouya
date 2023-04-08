@@ -322,9 +322,12 @@ const translations = {
         theStrategyLi3: "In 2017, a permanent committee was established under the name of the National Committee for Digital Transformation",
         theStrategyLi4: "The Government E-Transactions Program (YERS) diagnoses the maturity of government agencies in government digital transformation.",
         offerCamera: "Camera",
-        offerTitle: "Dahua",
+        offerTitle: "Network recorder (NVR)",
+        offerTitle2: "Indoor cameras",
+        offerTitle3: "Outdoor cameras",
         offerDesc: "Dahua set of 8 indoor and outdoor surveillance cameras with a resolution of 2 mega pixels, day and night imaging, with a recording device that can be viewed from the mobile phone",
         offerBtn: "BUY",
+        totalCart: "Total:",
     },
     ar : {
         rouya: "رؤية",
@@ -648,9 +651,12 @@ const translations = {
         theStrategyLi3: "في 2017 ،أنشئت لجنة دائمة باسم اللجنة الوطنية للتحول الرقمي.",
         theStrategyLi4: "يقوم برنامج التعامالت االلكرتونية الحكومية (يرس) بتشخيص مدى نضج الجهات الحكومية في التحول الرقمي الحكومي.",
         offerCamera: "كاميرا",
-        offerTitle: "داهوا",
+        offerTitle: "جهاز تسجيل شبكة (NVR)",
+        offerTitle2: "كاميرات داخلية",
+        offerTitle3: "كاميرات خارجية",
         offerDesc: "داهوا مجموعة من 8 كاميرات مراقبة داخلية وخارجية بدقة 2 ميغا بيكسل ، تصوير نهاري وليلي ، مع جهاز تسجيل يمكن مشاهدته من الهاتف المحمول",
         offerBtn: "شراء",
+        totalCart: "المجموع:",
     },
 };
 
@@ -739,3 +745,64 @@ iconARR.forEach(element => {
         datasetCercle.style.display = 'block';
     });
 });
+
+
+
+
+
+
+/* buy offers from cart home */
+// Start when the document is ready
+if(document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded' , start);
+}
+else {
+    start();
+}
+
+//  => start
+function start() {
+    addEvents();
+}
+
+//  => Update & Rerender
+function update() {
+    addEvents();
+    updateTotal();
+}
+
+// => Add events
+function addEvents() {
+    // Change item quantity
+    let cartQuantity_inputs = document.querySelectorAll('.cart-quantity');
+    cartQuantity_inputs.forEach(input => {
+        input.addEventListener('change', handle_changeItemQuantity);
+    })
+}
+
+// => Handle events funcations
+function handle_changeItemQuantity() {
+    if(isNaN(this.value) || this.value < 1) {
+        this.value = 1;
+    }
+    this.value = Math.floor(this.value); // to keep it integer
+    update();
+}
+
+// => Update & Rerender funcations
+function updateTotal() {
+    let cartBoxes = document.querySelectorAll('.cart-box');
+    let totalElement = document.querySelector('.total-price');
+    let total = 0;
+    cartBoxes.forEach(cartBox => {
+        let priceElement = cartBox.querySelector('.cart-price');
+        let price = parseFloat(priceElement.innerHTML.replace('$', ''));
+        let quantity = cartBox.querySelector('.cart-quantity').value;
+        total += price * quantity;
+    });
+
+    // Keep 2 digits after the decimal point
+    total = total.toFixed(2);
+
+    totalElement.innerHTML = '$' + total;
+}

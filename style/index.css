@@ -399,8 +399,11 @@ footer .row .pay {
 .offer_section .box .right_box {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
     padding: 20px;
+}
+.offer_section .box .right_box .cart-box h2 {
+    font-size: 18px;
 }
 .offer_section .box .right_box .price {
     display: flex;
@@ -411,9 +414,16 @@ footer .row .pay {
     font-weight: bold;
     color: var(--cyanGreenColor);
 }
-.offer_section .box .right_box .price h6 {
-    color: var(--grayColor);
-    text-decoration: line-through;
+.offer_section .box .right_box .price span {
+    font-size: 16px;
+}
+.offer_section .box .right_box .cart-box {
+    display: flex;
+    justify-content: space-between;
+}
+.offer_section .box .right_box .cart-box .cart-quantity {
+    width: 50px;
+    border-radius: 20px;
 }
 .offer_section h2 {
     font-weight: bold;
