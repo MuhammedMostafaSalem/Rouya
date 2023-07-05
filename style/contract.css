@@ -1,0 +1,84 @@
+header {
+    height: 60vh;
+    background-image: url(../imgs/contract/banner.png);
+}
+
+
+#contact-details .details h2 ,#form-details form h2 {
+    text-transform: capitalize;
+    font-size: 27px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+#form-details form span {
+    text-transform: uppercase;
+    color: rgb(138, 135, 135);
+    font-weight: 600;
+}
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e1e1e1;
+    margin: 30px;
+    padding: 75px;
+}
+#form-details form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input , #form-details form textarea {
+    width: 100%;
+    padding: 8px 15px;
+    outline: none;
+    margin-top: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form button {
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 1s;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #078a81;
+    margin-top: 20px;
+    transition: 1s;
+}
+#form-details form button:hover{
+    background-color: #02a79cfd;
+}
+
+.formDetails {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 765px) {
+    .formDetails {
+        display: block;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .formDetails .box2,
+    .box3 {
+        margin-top: 20px;
+    } 
+    
+}
+@media (max-width: 565px) {
+    #form-details {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #e1e1e1;
+        margin: 15px;
+        padding: 15px;
+    }
+}

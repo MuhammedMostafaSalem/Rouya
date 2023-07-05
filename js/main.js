@@ -328,6 +328,8 @@ const translations = {
         offerDesc: "Dahua set of 8 indoor and outdoor surveillance cameras with a resolution of 2 mega pixels, day and night imaging, with a recording device that can be viewed from the mobile phone",
         offerBtn: "BUY",
         totalCart: "Total:",
+        contract: "contract",
+        textContract: "The Contract",
     },
     ar : {
         rouya: "رؤية",
@@ -657,6 +659,8 @@ const translations = {
         offerDesc: "داهوا مجموعة من 8 كاميرات مراقبة داخلية وخارجية بدقة 2 ميغا بيكسل ، تصوير نهاري وليلي ، مع جهاز تسجيل يمكن مشاهدته من الهاتف المحمول",
         offerBtn: "شراء",
         totalCart: "المجموع:",
+        contract: "عقد",
+        textContract: "العقد",
     },
 };
 
