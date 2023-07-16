@@ -15,6 +15,27 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/ourClints.css">
     <link rel="stylesheet" href="style/contract.css">
+
+    <style>
+        .totalQuantity,
+        .totalprice {
+            background: transparent;
+            border: none !important;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 0 !important;
+            padding: 0 15px !important;
+        }
+        .totalQuantity {
+            width: 97px !important;
+        }
+        .totalprice {
+            width: 90px !important;
+        }
+        .quntityBox h4 {
+            margin-bottom: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <!-- start header -->
@@ -110,9 +131,20 @@
                 </div>
                 <div class="box1 box2">
                     <span>تفاصيل المنتج</p>
+                    <div class='quntityBox text-center'>
+                        <h4>اجمالي الكاميرات</h4>
+                        <input type="number" value="0" class="totalQuantity" disabled>
+                    </div>
+                    <div class='TotalPrice text-center'>
+                        <h4>اجمالي السعر</h4>
+                        <p class="priceTotal">
+                            <input type="number" value="0" class="totalprice" disabled>
+                            ريال
+                        </p>
+                    </div>
                     <div class="detailsCameras">
-                        <input type="number" placeholder="عدد الكاميرات الداخلية">
-                        <input type="number" placeholder="عدد الكاميرات الخارجية">
+                        <input type="number" class="camerasQuantity quantity1" placeholder="عدد الكاميرات الداخلية">
+                        <input type="number" class="camerasQuantity quantity2" placeholder="عدد الكاميرات الخارجية">
                         <div class="input">
                             <div class="name">مجموع الكاميرات"</div>
                             <div class="count"></div>
@@ -188,5 +220,6 @@
 
     <!-- link js file -->
     <script src="js/main.js"></script>
+    <script src="js/text.js"></script>
 </body>
 </html>
