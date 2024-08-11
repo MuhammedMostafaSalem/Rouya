@@ -8,6 +8,90 @@
     --whiteColor: #ffffff;
     --blackColor: #000;
 }
+/* privacy: "Policy and privacy",
+        spanImportant1: "Your privacy is important to Vision Things. When you use our services, you’re trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.",
+        spanImportant2: "This privacy notice explains the personal data Vision Things processes, how Vision Things processes it, and for what purposes. It is formulated in accordance with the Personal Data Protection Law and Regulations in the Kingdom of Saudi Arabia to help you understand the nature of data we collect from you and how this data will be treated by Vision Things. For the purposes of this Privacy Notice, “personal data” means “Any element of data, regardless of source or form whatsoever, which independently or when combined with other available information could lead to the identification of a person including but not limited to: First Name and Last Name, Saudi National Identity ID number, addresses, phone number, bank account number, credit card number, health data, images, or videos of the person.”",
+        ImportantP: "This privacy notice applies to all sectors and business units in the Company. All Company staff, contractors, and vendors working either on a permanent or temporary basis are obliged to follow the outlined standards.",
+        whyCollect: "Why we collect and use your personal data",
+        whyCollectP1: "To provide you the highest standard of service and products, we collect and use your personal data.",
+        whyCollectP2: "The legal basis for processing your personal data is:",
+        whyCollectP2LI1: "Contractual – to fulfil our service obligations to you.",
+        whyCollectP2LI2: "Consent – for other activities such as information, sales &amp; marketing.",
+        whyCollectP2LI3: "Legal obligation – to comply with government requirements including but not limited to, national security and protection of public health.",
+        whyCollectP3: "The purposes of this data collection including but not limited to:",
+        whyCollectP3LI1: "Enabling us to develop, enhance, market and/or deliver products and services to sirar by stc customers.", */
+
+        /* privacy: "السياسة و الخصوصية",
+        spanImportant1: "خصوصيتك مهمة لشركة Vision Things. عندما تستخدم خدماتنا ، فإنك تأتمننا على معلوماتك. نحن نتفهم أن هذه مسؤولية كبيرة ونعمل بجد لحماية معلوماتك ووضعك تحت السيطرة.",
+        spanImportant2: "يوضح إشعار الخصوصية هذا البيانات الشخصية التي تعالجها شركة Vision Things ، وكيف يعالجها Vision Things ، ولأي أغراض. تمت صياغته وفقًا لقانون ولوائح حماية البيانات الشخصية في المملكة العربية السعودية لمساعدتك على فهم طبيعة البيانات التي نجمعها منك وكيف سيتم التعامل مع هذه البيانات من قبل Vision Things. لأغراض إشعار الخصوصية هذا ، تعني البيانات الشخصية أي عنصر من عناصر البيانات ، بغض النظر عن المصدر أو الشكل على الإطلاق ، والذي قد يؤدي بشكل مستقل أو عند دمجه مع المعلومات الأخرى المتاحة إلى تحديد هوية الشخص بما في ذلك على سبيل المثال لا الحصر: أولاً الاسم واسم العائلة أو رقم الهوية الوطنية السعودية أو العناوين أو رقم الهاتف أو رقم الحساب المصرفي أو رقم بطاقة الائتمان أو البيانات الصحية أو الصور أو مقاطع الفيديو للشخص.",
+        ImportantP: "ينطبق إشعار الخصوصية هذا على جميع القطاعات ووحدات الأعمال في الشركة. يلتزم جميع موظفي الشركة والمقاولين والبائعين الذين يعملون إما على أساس دائم أو مؤقت باتباع المعايير المحددة.",
+        whyCollect: "لماذا نقوم بجمع واستخدام بياناتك الشخصية",
+        whyCollectP1: "لتزويدك بأعلى مستوى من الخدمة والمنتجات ، نقوم بجمع واستخدام بياناتك الشخصية.",
+        whyCollectP2: "الأساس القانوني لمعالجة بياناتك الشخصية هو:",
+        whyCollectP2LI1: "تعاقدي - للوفاء بالتزامات الخدمة تجاهك.",
+        whyCollectP2LI2: "الموافقة - لأنشطة أخرى مثل المعلومات والمبيعات وأمبير. تسويق.",
+        whyCollectP2LI3: "الالتزام القانوني - الامتثال لمتطلبات الحكومة بما في ذلك على سبيل المثال لا الحصر ، الأمن القومي وحماية الصحة العامة.",
+        whyCollectP3: "تشمل أغراض جمع البيانات هذه على سبيل المثال لا الحصر:", */
+
+
+        /* <style>
+        .textSection h4 {
+            font-weight: bold;
+        }
+        .textSection__text {
+            width: 900px;
+            margin: auto;
+        }
+        .textSection__text p, .textSection__text ul {
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            transition: color 0.2s;
+            margin-bottom: 3rem;
+        }
+        .textSection__text h4 {
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            transition: color 0.2s;
+            margin-bottom: 3rem;
+            color: #51a29d;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="textSection my-3">
+        <div class="container">
+            <h4 data-lang="privacy"></h4>
+            <div class="textSection__text">
+                <p>
+                    <span data-lang="spanImportant1"></span>
+                    <br>
+                    <span data-lang="spanImportant2"></span>
+                </p>
+                <p data-lang="ImportantP"></p>
+                <h4 data-lang="whyCollect"></h4>
+                <p data-lang="whyCollectP1"></p>
+                <p data-lang="whyCollectP2"></p>
+                <ul>
+                    <li data-lang="whyCollectP2LI1"></li>
+                    <li data-lang="whyCollectP2LI2"></li>
+                    <li data-lang="whyCollectP2LI3"></li>
+                </ul>
+                <p data-lang="whyCollectP3"></p>
+                <ul>
+                    <li data-lang="whyCollectP3LI1"></li>
+                    <li data-lang="whyCollectP3LI2">Enabling and supporting our operation and systems to ensure continuity and quality to our services and provide accurate billing and enable us to process payments for products and services.</li>
+                    <li data-lang="whyCollectP3LI3">Understanding your needs as customers and your eligibility for products and services and recommend products and services that would be relevant to you.</li>
+                    <li data-lang="whyCollectP3LI4">Communicating new product and services launched.</li>
+                    <li data-lang="whyCollectP3LI5">Resolving any queries or complaints you may have and allows us to provide you a personalized customer experience across all our channels.</li>
+                    <li data-lang="whyCollectP3LI6">Provide reports to third parties and/or our enterprise clients where such reports don’t contain any personal information about you or any information that may identify you as a person in accordance with local privacy regulation.</li>
+                    <li data-lang="whyCollectP3LI7">For Credit Checks in certain scenarios e.g., when contracting for any new products or services, and we sometimes supplement the information we collect about you with information from other sources to assess the accuracy of the information that we hold e.g., data from governmental entities.</li>
+                </ul>
+            </div>
+        </div>
+    </div> */
 
 .margin-bottom {
     margin-bottom: 100px;

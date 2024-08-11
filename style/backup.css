@@ -73,6 +73,7 @@ header .content-row {
         height: 250px;
         margin-left: 0;
         margin-right: 0;
+        
     }
 }
 @media (max-width:575px) {
